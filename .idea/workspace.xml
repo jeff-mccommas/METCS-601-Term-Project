@@ -3,34 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="108a48e9-348e-4889-9ef8-f73aa3675d56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/25cca87f39604ef925805a50bc746a70.ico/ms-icon-70x70.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -104,14 +76,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="236" />
+          <entry key="html" value="334" />
           <entry key="sass" value="5" />
           <entry key="scss" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="236" />
+          <entry key="HTML" value="334" />
           <entry key="SCSS" value="75" />
           <entry key="Sass" value="5" />
         </counts>
@@ -150,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="570">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -238,8 +210,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
-    <option name="y" value="23" />
+    <option name="x" value="390" />
+    <option name="y" value="583" />
     <option name="width" value="2177" />
     <option name="height" value="1267" />
   </component>
@@ -320,15 +292,15 @@
       <option name="presentableId" value="Default" />
       <updated>1541371275381</updated>
       <workItem from="1541371277640" duration="2513000" />
-      <workItem from="1541416114377" duration="8074000" />
+      <workItem from="1541416114377" duration="9015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10587000" />
+    <option name="totallyTimeSpent" value="11528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="23" width="2177" height="1267" extended-state="0" />
+    <frame x="390" y="583" width="2177" height="1267" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30009276" />
@@ -425,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="570">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
