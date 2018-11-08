@@ -1,0 +1,22 @@
+{
+  "name": "metcs-601-term-project",
+  "version": "1.0.0",
+  "description": " portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-mccommas/MetCS-601-Term-Project.git"
+  },
+  "author": "jeff mccommas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeff-mccommas/MetCS-601-Term-Project/issues"
+  },
+  "homepage": "https://github.com/jeff-mccommas/MetCS-601-Term-Project#readme",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

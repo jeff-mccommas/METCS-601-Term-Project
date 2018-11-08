@@ -11,71 +11,81 @@
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <meta name="author" content="Jeff McCommas">
     <title>Home Page</title>
-    <link rel="stylesheet" href="Css/styles.scss">
+    <link rel="stylesheet" href="Css/styles.css">
 </head>
 <body>
 <!-- begin navigation -->
-<header>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="./home.html">Home Page</a></li>
-            <li><a href="./about.html">About Me</a></li>
-            <li><a href="./photo-gallery.html">Photo Gallery</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./resume.html">Resume</a></li>
+<div class="wrapper">
+
+    <header>
+        <div class="wrapper-header">
+            <div class="nav-bar">
+                <nav>
+                    <ul class="nav-links shadow">
+                        <li><a href="./home.html">Home Page</a></li>
+                        <li><a href="./about.html">About Me</a></li>
+                        <li><a href="./photo-gallery.html">Photo Gallery</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./projects.html">Projects</a></li>
+                        <li><a href="./resume.html">Resume</a></li>
+                    </ul>
+                </nav>
+            </div>
+p
+        </div>
+    </header>
+
+
+    <!-- end navigation -->
+    <section class="main">
+
+        <article class="header">
+            <header class="main-intro">
+                <h2 class="intro">Web Application Development</h2>
+                <video width="558" height="314" controls autoplay>
+                    <source src="./video/4K%20Young%20video%20game%20design%20team%20collaborating%20on%20a%20project.mp4"
+                            type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </header>
+            <blockquote><p>Thank you for visiting my portfolio web site. This site contains portfolio of my education at
+                Boston University Master in Computer Information Systems so far. I have created an online portfolio using a
+                variety of web technologies like using HTML 5, CSS 3 , Client side scripting language such as Javascript and
+                JQuery with supporting libraries.</p></blockquote>
+        </article>
+
+    </section>
+
+    <aside>
+
+
+        <h3>MET CS 601</h3>
+
+        <h3>Requirement for Term Project</h3>
+
+        <ul class="mainlist">
+
+            <li class="mainlist">HTML5:</li>
+            <li class="mainlist">CSS3:</li>
+            <li class="mainlist">Javascript</li>
+            <li class="mainlist">Jquery</li>
+            <li class="mainlist">video file:</li>
+            <li class="mainlist">Image map:</li>
+
         </ul>
-    </nav>
-    <hr>
-</header>
-<!-- end navigation -->
-<section>
-
-    <article>
-        <header>
-            <h2>Web Application Development</h2>
-            <video width="558" height="314" controls autoplay>
-                <source src="./video/4K%20Young%20video%20game%20design%20team%20collaborating%20on%20a%20project.mp4"
-                        type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </header>
-        <blockquote><p>Thank you for visiting my portfolio web site. This site contains portfolio of my education at
-            Boston University Master in Computer Information Systems so far. I have created an online portfolio using a
-            variety of web technologies like using HTML 5, CSS 3 , Client side scripting language such as Javascript and
-            JQuery with supporting libraries.</p></blockquote>
-    </article>
-
-</section>
-
-<aside>
+        <p><img src="images/HTML5-CSS3.jpg" alt="html5 css3" width="300" height="160"></p>
 
 
-    <h3>MET CS 601</h3>
+        <blockquote><p>This course focuses on introducing the concepts of developing web sites and web based
+            applications.</p></blockquote>
 
-    <h3>Requirement for Term Project</h3>
-
-    <ul class="mainlist">
-
-        <li class="mainlist">HTML5:</li>
-        <li class="mainlist">CSS3:</li>
-        <li class="mainlist">Javascript</li>
-        <li class="mainlist">Jquery</li>
-        <li class="mainlist">video file:</li>
-        <li class="mainlist">Image map:</li>
-
-    </ul>
-    <p><img src="images/HTML5-CSS3.jpg" alt="html5 css3" width="300" height="160"></p>
+    </aside>
 
 
-    <blockquote><p>This course focuses on introducing the concepts of developing web sites and web based
-        applications.</p></blockquote>
-
-</aside>
 <footer>
     <p>Copyright 2018 Jeff McCommas</p>
 </footer>
+</div>
 <script src="Scripts/script.js"></script>
 </body>
 </html>

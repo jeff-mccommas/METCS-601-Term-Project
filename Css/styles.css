@@ -1,0 +1,121 @@
+/*insert all css properties here*/
+
+
+.wrapper {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+div.wrapper-header {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    width: 1170px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+
+    margin-bottom: 40px;
+    background-color: #fff;
+
+    border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    -webkit-border-radius: 4px;
+
+
+}
+header.main-intro{
+
+}
+
+    div.bar {
+
+        float: left;
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+
+    }
+
+    ul.nav-links {
+        width: 960px;
+
+        background-color:blue;
+
+        padding: 10px 30px;
+
+        margin: 10px 0;
+
+        list-style-type: none;
+
+        margin: 0;
+
+        border-radius: 5px;
+
+        -moz-border-radius: 5px;
+
+        -webkit-border-radius: 5px;
+
+    }
+
+    ul.nav-links li {
+
+        width: 140px;
+
+        text-decoration: none;
+
+        display: inline-block;
+
+        zoom: 1;
+
+        vertical-align: middle;
+
+    }
+
+    ul.nav-links a.nav-link {
+
+        color: #1598f2;
+
+    }
+
+    div.user-field label {
+
+        width: 70px;
+
+        display: inline-block;
+
+        zoom: 1;
+    }
+    article.header{
+        width: 800px;
+        display: contents;
+        text-align: center;
+
+    }
+    h2.intro {
+        width: 200px;
+        text-align: center;
+        display: contents;
+    }
+.shadow {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+
