@@ -1,4 +1,7 @@
 /*insert all css properties here*/
+body,html{
+    margin: 0px;
+}
 .wrapper {
     width: 100%;
     padding-right: 15px;
@@ -35,7 +38,20 @@ div.wrapper-header {
 header.main-intro {
 
 }
+header, .full-width {
+    width: 100%;
+    background: #ccc;
+}
 /*************begin navbar css *********/
+.nav-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2f3036;
+    height: 50px;
+}
 
 /*Strip the ul of padding and list styling*/
 ul {
