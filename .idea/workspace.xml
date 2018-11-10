@@ -4,9 +4,7 @@
     <list default="true" id="108a48e9-348e-4889-9ef8-f73aa3675d56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/HTML5-CSS3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/HTML5-CSS3.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,16 +50,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="376" />
-          <entry key="html" value="322" />
+          <entry key="css" value="536" />
+          <entry key="html" value="398" />
           <entry key="js" value="49" />
           <entry key="scss" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="376" />
-          <entry key="HTML" value="322" />
+          <entry key="CSS" value="536" />
+          <entry key="HTML" value="398" />
           <entry key="JavaScript" value="49" />
           <entry key="SCSS" value="128" />
         </counts>
@@ -79,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="347">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -106,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="207" column="32" lean-forward="true" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
+            <state relative-caret-position="446">
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -151,6 +149,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>intr</find>
+      <find>text-intro</find>
+      <find>full</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,8 +167,8 @@
         <option value="$PROJECT_DIR$/_variables.scss" />
         <option value="$PROJECT_DIR$/Css/styles.scss" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/Css/styles.css" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/Css/styles.css" />
       </list>
     </option>
   </component>
@@ -186,7 +187,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="187" />
+    <option name="x" value="167" />
+    <option name="y" value="243" />
     <option name="width" value="2257" />
     <option name="height" value="1253" />
   </component>
@@ -277,15 +279,15 @@
       <workItem from="1541371277640" duration="3745000" />
       <workItem from="1541459297477" duration="10348000" />
       <workItem from="1541668095404" duration="6287000" />
-      <workItem from="1541794496291" duration="7030000" />
+      <workItem from="1541794496291" duration="11441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27410000" />
+    <option name="totallyTimeSpent" value="31821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="187" width="2257" height="1253" extended-state="0" />
+    <frame x="167" y="243" width="2257" height="1253" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28354204" />
@@ -360,17 +362,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Css/styles.css">
+    <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="207" column="32" lean-forward="true" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
+        <state relative-caret-position="347">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
+    <entry file="file://$PROJECT_DIR$/Css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="446">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>

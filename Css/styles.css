@@ -1,7 +1,9 @@
 /*insert all css properties here*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 body, html {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -10,9 +12,6 @@ body, html {
     background-color: #fff;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-}
 h2.heading {
     color: #2f3036;
     display: flex;
@@ -39,28 +38,53 @@ div.wrapper-header {
 
 }
 
-.text-intro {
+.dumbotron {
     width: 700px;
-    padding: 4rem 2rem;
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
     background-color: #e9ecef;
-    border-radius: .3rem;
+    height: fit-content;
+    padding: 1.5rem .5rem 5.60rem;
+    text-align: -webkit-match-parent;
+    margin-top: 4.875rem;
 }
-.text-intro>img{
+
+.dumbotron > img {
     float: left;
     margin: 1.5rem;
 }
+
 .figure {
     display: inline-block;
 }
+
 figure {
     margin: 0 0 1rem;
 }
 
+/*centering and positioning main content*/
 header, .full-width {
     width: 100%;
-    background: #ffffff;
+    background: transparent;
+}
+
+section.main {
+    margin: auto;
+    width: 80%;
+    display: flex; /* equal height of the children */
+}
+
+col {
+    flex: 1; /* additionally, equal width */
+
+    padding: 1em;
+    border: solid;
+}
+
+section.video {
+
+}
+
+article.header {
+
 }
 
 /*************begin navbar css *********/
@@ -145,7 +169,6 @@ ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
 
-
 /*Responsive Styles*/
 @media screen and (max-width: 760px) {
     /*Make dropdown links appear inline*/
@@ -169,9 +192,10 @@ ul li a:hover + .hidden, .hidden:hover {
 p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
+
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
     background: #19c589;
@@ -179,16 +203,19 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 10px 0;
     display: none;
 }
+
 /*Hide checkbox*/
-input[type=checkbox]{
+input[type=checkbox] {
     display: none;
 }
+
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+input[type=checkbox]:checked ~ #menu {
     display: block;
 }
+
 /*Responsive Styles*/
-@media screen and (max-width : 760px) {
+@media screen and (max-width: 760px) {
     /*Make dropdown links appear inline*/
     ul {
         position: static;
