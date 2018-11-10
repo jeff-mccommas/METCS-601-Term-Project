@@ -50,16 +50,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="536" />
-          <entry key="html" value="398" />
+          <entry key="css" value="813" />
+          <entry key="html" value="553" />
           <entry key="js" value="49" />
           <entry key="scss" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="536" />
-          <entry key="HTML" value="398" />
+          <entry key="CSS" value="813" />
+          <entry key="HTML" value="553" />
           <entry key="JavaScript" value="49" />
           <entry key="SCSS" value="128" />
         </counts>
@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="296">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="765">
               <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
             </state>
           </provider>
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="466">
+              <caret line="272" column="14" lean-forward="true" selection-start-line="272" selection-start-column="14" selection-end-line="272" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,8 @@
       <find>text-intro</find>
       <find>full</find>
       <find>header</find>
+      <find>intro</find>
+      <find>main-intro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,8 +189,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="243" />
+    <option name="x" value="211" />
+    <option name="y" value="23" />
     <option name="width" value="2257" />
     <option name="height" value="1253" />
   </component>
@@ -211,11 +213,6 @@
               <item name="MetCS-601-Term-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="Css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="MetCS-601-Term-Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -279,15 +276,15 @@
       <workItem from="1541371277640" duration="3745000" />
       <workItem from="1541459297477" duration="10348000" />
       <workItem from="1541668095404" duration="6287000" />
-      <workItem from="1541794496291" duration="11441000" />
+      <workItem from="1541794496291" duration="20061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31821000" />
+    <option name="totallyTimeSpent" value="40441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="243" width="2257" height="1253" extended-state="0" />
+    <frame x="211" y="23" width="2257" height="1253" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28354204" />
@@ -302,8 +299,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32988802" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4995528" visible="true" weight="0.32988802" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004472" side_tool="true" visible="true" weight="0.32988802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,22 +354,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="765">
           <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="296">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="466">
+          <caret line="272" column="14" lean-forward="true" selection-start-line="272" selection-start-column="14" selection-end-line="272" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -13,9 +13,11 @@ body, html {
 }
 
 h2.heading {
-    color: #2f3036;
-    display: flex;
-    margin: 3.5rem;
+    /*margin-bottom: 1.2rem;*/
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+    font-size: 1.4em;
 }
 
 div.wrapper-header {
@@ -38,8 +40,21 @@ div.wrapper-header {
 
 }
 
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
 .dumbotron {
     width: 700px;
+    float: left;
     background-color: #e9ecef;
     height: fit-content;
     padding: 1.5rem .5rem 5.60rem;
@@ -48,7 +63,7 @@ div.wrapper-header {
 }
 
 .dumbotron > img {
-    float: left;
+    float: right;
     margin: 1.5rem;
 }
 
@@ -65,27 +80,18 @@ header, .full-width {
     width: 100%;
     background: transparent;
 }
+header.main-intro{
+    float: left;
+}
 
 section.main {
-    margin: auto;
+    margin:   0 auto;
     width: 80%;
-    display: flex; /* equal height of the children */
+    overflow: hidden;
+    display: -ms-flexbox;
+    flex-wrap: nowrap;
 }
 
-col {
-    flex: 1; /* additionally, equal width */
-
-    padding: 1em;
-    border: solid;
-}
-
-section.video {
-
-}
-
-article.header {
-
-}
 
 /*************begin navbar css *********/
 .nav-container {
@@ -192,6 +198,25 @@ ul li a:hover + .hidden, .hidden:hover {
 p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
+/*let us define som global colors to use*/
+.primary{
+    color: #007bff;
+}
+.success{
+    color: #28a745;
+}
+.info{
+    color: #007bff;
+}
+.alert{
+    color: #dc3545;
+}
+.dark{
+    color: #343a40;
+}
+.secondary{
+    color: #6c757d;
+}
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
@@ -240,5 +265,22 @@ input[type=checkbox]:checked ~ #menu {
 
 /*************end navbar css *********/
 
+ /*css to horizontal center two divs sid by side*/
+.wrapper {
+    display: table;
+    table-layout: fixed;
+
+    width:90%;
+    height:auto;
+}
+.wrapper div {
+    display: table-cell;
+    height:auto;
+}
+
+.video {
+}
+.dumbo {
+}
 
 
