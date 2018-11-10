@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content=METCS601>
     <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -13,12 +13,15 @@
     <title>Home Page</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/media.css">
+    <link media="print" href="./Css/print.css">
+
 </head>
 <body>
 <!-- begin navigation -->
 
 <header>
-    <nav class="">
+    <nav>
         <label for="show-menu" class="show-menu">Show Menu</label>
         <input type="checkbox" id="show-menu" role="button">
         <ul id="menu" class="nav-container">
@@ -38,7 +41,7 @@
     <div class="wrapper">
         <div class="video"><article class="header">
             <header class="main-intro">
-                <h2 class="intro primary">Web Application Development</h2>
+                <h2 class="intro secondary">Web Application Development</h2>
                 <video width="716" height="374" autoplay>
                     <source src="./video/4K%20Young%20video%20game%20design%20team%20collaborating%20on%20a%20project.mp4"
                             type="video/mp4">
@@ -46,25 +49,28 @@
                 </video>
             </header>
         </article></div>
-        <div class="dumbo"> <p class="dumbotron"><img src="./images/HTML5-CSS3.png" height="213" width="237" alt=" html5 , CSS, JavaScript,Jquery">Thank you for visiting my portfolio web site. This site contains portfolio of my education at
+        <div class="dumbo"><p class="dumbotron"><img class="responsive" src="./images/HTML5-CSS3.png" height="213" width="237" alt=" html5 , CSS, JavaScript,Jquery">Thank you for visiting my portfolio web site. This site contains portfolio of my education at
             Boston University Master in Computer Information Systems so far. I have created an online portfolio using a
             variety of web technologies like using HTML 5, CSS 3 , Client side scripting language such as Javascript and
             JQuery with supporting libraries.</p></div>
     </div>
 
+<div id="mainlist">
+    <h3>MET CS 601</h3>
+
+    <h3>Requirement for Term Project</h3>
+    <ul>
+        <li >HTML5</li>
+        <li >CSS3</li>
+        <li >Javascript</li>
+        <li>Jquery</li>
+    </ul>
+</div>
 
 
-            <!--<h3>MET CS 601</h3>-->
 
-            <!--<h3>Requirement for Term Project</h3>-->
-            <!--<ul class="mainlist">-->
 
-            <!--<li class="mainlist">HTML5:</li>-->
-            <!--<li class="mainlist">CSS3:</li>-->
-            <!--<li class="mainlist">Javascript</li>-->
-            <!--<li class="mainlist">Jquery</li>-->
-            <!--<li class="mainlist">video file:</li>-->
-            <!--<li class="mainlist">Image map:</li>-->
+
 
             <!--</ul>-->
 
@@ -75,20 +81,7 @@
 <aside>
 
 
-    <h3>MET CS 601</h3>
 
-    <h3>Requirement for Term Project</h3>
-
-    <ul class="mainlist">
-
-        <li class="mainlist">HTML5:</li>
-        <li class="mainlist">CSS3:</li>
-        <li class="mainlist">Javascript</li>
-        <li class="mainlist">Jquery</li>
-        <li class="mainlist">video file:</li>
-        <li class="mainlist">Image map:</li>
-
-    </ul>
 
 
     <blockquote><p>This course focuses on introducing the concepts of developing web sites and web based
@@ -97,8 +90,8 @@
 </aside>
 
 
-<footer>
-    <p>Copyright 2018 Jeff McCommas</p>
+<footer class="nav-container">
+    <p class="copy">Copyright 2018 Jeff McCommas</p>
 </footer>
 <script src="Scripts/script.js"></script>
 </body>

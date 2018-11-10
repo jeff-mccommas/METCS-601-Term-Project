@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*Make dropdown links appear inline*/
+    .wrapper div {
+        display: inline-table;
+        width: 78%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*Make dropdown links appear inline*/
+    p.dumbotron  {
+        padding: inherit;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*Make dropdown links appear inline*/
+    h2.intro.secondary  {
+       display: none;
+    }
+}
+
+
+

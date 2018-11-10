@@ -1,6 +1,5 @@
 /*insert all css properties here*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
 body, html {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,7 +66,7 @@ div.wrapper-header {
 }
 
 .dumbotron > img {
-    float: right;
+    float: left;
     margin: 1.5rem;
 }
 
@@ -202,6 +201,9 @@ ul li a:hover + .hidden, .hidden:hover {
 p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
 }
+h2.intro.secondary {
+    font-size: 1.3rem;
+}
 /*let us define som global colors to use*/
 .primary{
     color: #007bff;
@@ -220,6 +222,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .secondary{
     color: #6c757d;
+}
+.copy{
+    color: #ffffff;
+    font-weight: bolder;
 }
 
 /*Style 'show menu' label button and hide it by default*/
@@ -274,7 +280,7 @@ input[type=checkbox]:checked ~ #menu {
     display: table;
     table-layout: fixed;
 
-    width:90%;
+    width:83%;
     height:auto;
 }
 .wrapper div {
@@ -288,5 +294,38 @@ input[type=checkbox]:checked ~ #menu {
     position: relative;
     top: 10px;
 }
+/*more responsive utilities*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+/*styles for main list on home page*/
+#mainlist >  ul{
+    list-style: none;
+
+    text-indent: 1em;
+    margin: 2em;
+    width: 100%;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+#mainlist ul li:before {
+    content: "\0BB \020";
+}
+div#mainlist {
+    display: -webkit-box;
+    margin: 0 auto;
+}
+/*footer styles*/
+footer{
+    position: fixed;
+    text-align: right;
+
+}
+footer p{
+   padding-right: 5rem;
+}
+
+
 
 
