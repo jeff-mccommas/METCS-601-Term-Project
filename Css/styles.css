@@ -10,6 +10,7 @@ body, html {
     text-align: left;
     background-color: #fff;
 }
+a label { cursor: pointer; }
 
 h2.heading {
     /*margin-bottom: 1.2rem;*/
@@ -316,6 +317,21 @@ div#mainlist {
     display: -webkit-box;
     margin: 0 auto;
 }
+#mainlist ul> li a{
+}
+#mainlist li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: #343a40;
+    text-decoration: underline;
+
+    line-height: 0;
+    margin: .5rem .2rem;
+    display: inline-table;
+
+}
 /*footer styles*/
 footer{
     position: fixed;
@@ -324,6 +340,20 @@ footer{
 }
 footer p{
    padding-right: 5rem;
+}
+ /*about page styles*/
+h2.intro.about.secondary {
+    position: relative;
+    line-height: 1rem;
+    top: 41px;
+    font-size: 1.1rem;
+}
+h2.intro.secondary {
+    font-size: 1.3rem;
+}
+ul.about {
+    position: relative;
+    top: 20px;
 }
 
 
