@@ -94,7 +94,7 @@ header.main-intro {
 
 section.main {
     margin: 0 auto;
-    width: 80%;
+    width: 1200px;
     overflow: hidden;
     display: -ms-flexbox;
     flex-wrap: nowrap;
@@ -293,7 +293,7 @@ input[type=checkbox]:checked ~ #menu {
     display: table;
     table-layout: fixed;
 
-    width: 83%;
+    width: 100%;
     height: auto;
 }
 
