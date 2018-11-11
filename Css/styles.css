@@ -332,6 +332,11 @@ div#mainlist {
     display: inline-table;
 
 }
+#mainlist.about-me{
+    position: relative;
+    top: 50px;
+}
+
 /*footer styles*/
 footer{
     position: fixed;
@@ -355,6 +360,142 @@ ul.about {
     position: relative;
     top: 20px;
 }
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    flex-basis: 25em;
+}
+.flexbox .col {
+    flex: 1;
+}
+.flexbox img{
+    float: left;
+    margin: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/*end about CSS*/
+
+/*begin table element styles*/
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+tbody tr:nth-child(odd) {
+    background: #fefefe;
+}
+body tr:hover {
+    background: #E1E1E1;
+}
+
+/*end table element styles*/
+
+ /*form styles*/
+.contact-form{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+    display: inline-block;
+}
+.contact-form h1{
+    background: #343a40;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="date"],
+.contact-form input[type="datetime"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form input[type="search"],
+.contact-form input[type="time"],
+.contact-form input[type="url"],
+.contact-form textarea,
+.contact-form select
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.contact-form input[type="text"]:focus,
+.contact-form input[type="date"]:focus,
+.contact-form input[type="datetime"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="number"]:focus,
+.contact-form input[type="search"]:focus,
+.contact-form input[type="time"]:focus,
+.contact-form input[type="url"]:focus,
+.contact-form textarea:focus,
+.contact-form select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #19c589;
+    border-bottom: 2px solid #19c589;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+}
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="button"]:hover{
+    background: #19c589;
+}
+
+
+
+
+
+
 
 
 
