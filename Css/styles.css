@@ -385,12 +385,30 @@ ul.about {
     position: relative;
     top: 20px;
 }
+.grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
 
+            "col-text"
+            "about-icon-header"
+            "col-icon"
+
+}
 .grid img {
     float: left;
     margin: 1rem;
     max-width: 100%;
     height: auto;
+}
+.grid img::after {
+    content: " <- EXCITING!";
+    color: green;
+}
+
+.boring-text::after {
+    content: " <- BORING";
+    color: red;
 }
 
 section.about-columns {
@@ -398,11 +416,6 @@ section.about-columns {
     top: 3rem;
 }
 
-@media (min-width: 400px) and(min-width: 992px) {
-    .grid {
-        display: block;
-    }
-}
 
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
@@ -442,10 +455,15 @@ section.about-columns {
 
 /*end about CSS*/
 h2.about-icon-header {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bolder;
     line-height: inherit;
-    color: #007bff;
+    color: #3366bb;
+}
+figcaption >img{
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 .col-text > p {

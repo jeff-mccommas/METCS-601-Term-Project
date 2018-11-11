@@ -17,6 +17,33 @@
        display: none;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*Make dropdown links appear inline*/
+    .wrapper div {
+        display: inline-table;
+        width: 78%;
+    }
+}
+@media only screen and (min-width: 500px)  {
+    .wrapper {
 
+        display: grid;
+        grid-gap: 1em;
+        grid-template-areas:
 
+                "col-text"
+                "about-icon-header"
+                "col-icon"
+                ;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        grid-gap: 20px;
+        grid-template-columns: 120px auto 120px;
+        grid-template-areas: "col-text" "about-icon-header" "col-icon" ;
+        max-width: 600px;
+    }
+}
 
