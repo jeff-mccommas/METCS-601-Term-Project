@@ -15,19 +15,25 @@
 <body>
 <!-- begin navigation -->
 <header>
-    <hr>
     <nav>
-        <ul>
-            <li><a href="./home.html">Home Page</a></li>
-            <li><a href="./about.html">About Me</a></li>
-            <li><a href="./photo-gallery.html">Photo Gallery</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./projects.html">Projects</a></li>
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu" class="nav-container">
+            <li><a href="./home.html">Home</a></li>
+            <li>
+                <a href="./about.html">About ￬</a>
+                <ul class="hidden">
+                    <li><a href="https://github.com/jeff-mccommas" target="_blank">GitHub Repo</a></li>
+                    <li><a href="http://www.linkedin.com/in/jeffmccommas" target="_blank">My LinkedIn</a></li>
+                    <li><a href="http://www.jeffmccommas.com/" target="_blank">My Portfolio</a></li>
+                </ul>
+            </li>
+            <li>
             <li><a href="./resume.html">Resume</a></li>
-
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
-    <hr>
 </header>
 <!-- end navigation -->
 <section>
