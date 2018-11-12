@@ -302,7 +302,6 @@ input[type=checkbox]:checked ~ #menu {
     height: auto;
 }
 
-
 /*more responsive utilities*/
 .responsive {
     max-width: 100%;
@@ -325,16 +324,16 @@ div#mainlist {
     position: relative;
     top: -6%;
 }
+
 div#mainlist > header {
     display: block;
-
 
 }
 
 #mainlist ul > li a {
     display: block;
     padding: 8px 16px;
-  width: 200px;
+    width: 200px;
     font-weight: 500;
     height: 20px;
     text-align: center;
@@ -345,12 +344,13 @@ div#mainlist > header {
     text-decoration: none;
 }
 
-#mainlist li  {
-   display: block;
+#mainlist li {
+    display: block;
     padding: 8px 16px;
 
 }
-div.mainlist{
+
+div.mainlist {
     margin: 0;
     font-size: smaller;
     text-align: left;
@@ -391,22 +391,21 @@ ul.about {
     position: relative;
     top: 20px;
 }
+
 .grid {
     display: grid;
     grid-gap: 1em;
-    grid-template-areas:
-
-            "col-text"
-            "about-icon-header"
-            "col-icon"
+    grid-template-areas: "col-text" "about-icon-header" "col-icon"
 
 }
+
 .grid img {
     float: left;
     margin: 1rem;
     max-width: 100%;
     height: auto;
 }
+
 .grid img::after {
     content: " <- EXCITING!";
     color: green;
@@ -422,7 +421,6 @@ section.about-columns {
     top: 4rem;
     width: 100%;
 }
-
 
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
@@ -467,7 +465,8 @@ h2.about-icon-header {
     line-height: inherit;
     color: #3366bb;
 }
-figcaption >img{
+
+figcaption > img {
     position: relative;
     top: 20px;
     left: 20px;
@@ -615,9 +614,11 @@ body tr:hover {
         width: 100%;
     }
 }
+
 p.column-text {
     padding-right: 20px;
 }
+
 /* The sidebar menu */
 .sidenav {
     height: 286px;
@@ -626,14 +627,87 @@ p.column-text {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #ce3a1fd9;
+    background-color: #ce3a1f;
     color: white;
     font-size: initial;
     overflow: hidden;
     padding-top: 0;
     margin: 54px 14px 20px 0;
-    border-radius: 2px;
+    border-radius: 0;
 }
+
+/* skills CSS starts here */
+
+section#skills {
+    position: relative;
+    top: 50px;
+}
+
+section#skills > article p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 700px;
+    max-width: 100%;
+    margin: 20px auto 40px;
+    font-weight: 300;
+}
+
+.bio-skills-list {
+    width: auto;
+    padding-bottom: 220px;
+    margin-right: 0px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.bio-skills-list > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.bio-skills-list2 {
+    width: auto;
+    /*padding-bottom: 30px;*/
+    margin-right: 0px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.bio-skills-list2 > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+article.skills {
+    width: 100%;
+    height: 600px;
+    top: 1.5rem;
+}
+
+article h2 {
+    position: relative;
+    top: 24px;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    line-height: inherit;
+    color: #3366bb
+}
+
+article h3 {
+
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    line-height: inherit;
+    color: #3366bb
+}
+
+/* skills CSS ends here */
 
 
 
