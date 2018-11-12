@@ -1,7 +1,9 @@
 /*insert all css properties here*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
-body, html {
+html, body {
+    height: 100%;
+}
+body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
@@ -11,6 +13,7 @@ body, html {
     text-align: left;
     background-color: #fff;
 }
+
 
 a label {
     cursor: pointer;
@@ -93,11 +96,8 @@ header.main-intro {
 }
 
 section.main {
-    margin: 0 auto;
-    width: 1200px;
-    overflow: hidden;
-    display: -ms-flexbox;
-    flex-wrap: nowrap;
+
+
 }
 
 /*************begin navbar css *********/
@@ -246,7 +246,7 @@ h2.intro.secondary {
     font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
-    background: #d13a10d9;
+    background: rgba(209, 58, 16, 0.85);
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -367,6 +367,8 @@ div.mainlist {
 /*footer styles*/
 footer {
     position: fixed;
+    bottom: 0;
+    left: 0;
     text-align: right;
 
 }
@@ -600,6 +602,10 @@ body tr:hover {
     width: 50%;
     height: auto; /* Should be removed. Only for demonstration */
 }
+column.intro-right{
+    margin-right: 1px;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -625,8 +631,8 @@ p.column-text {
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    right: 0;
+    top: 4%;
+    left: 37%;
     background-color: #ce3a1f;
     color: white;
     font-size: initial;
@@ -634,9 +640,13 @@ p.column-text {
     padding-top: 0;
     margin: 54px 14px 20px 0;
     border-radius: 0;
+    opacity:0.8;
+}
+.sidenav:hover{
+    opacity:1;
 }
 
-/* skills CSS starts here */
+    /* skills CSS starts here */
 
 section#skills {
     position: relative;
