@@ -302,55 +302,54 @@ input[type=checkbox]:checked ~ #menu {
     height: auto;
 }
 
-.video {
-}
-
-.dumbo {
-    position: relative;
-    top: 10px;
-}
 
 /*more responsive utilities*/
 .responsive {
     max-width: 100%;
     height: auto;
+    float: left;
 }
 
 /*styles for main list on home page*/
 #mainlist > ul {
-    list-style: none;
-
-    text-indent: 1em;
-    margin: 2em;
-    width: 100%;
-    padding: 5px;
-    font-family: "Open Sans", sans-serif;
-}
-
-#mainlist ul li:before {
-    content: "\0BB \020";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
 }
 
 div#mainlist {
-    display: -webkit-box;
-    margin: 0 auto;
+    display: contents;
+
+}
+div#mainlist > header {
+    display: block;
+
+
 }
 
 #mainlist ul > li a {
+    display: block;
+    padding: 8px 16px;
+  width: 200px;
+    font-weight: 500;
+    height: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-#mainlist li a {
-    text-decoration: none;
-    background-color: transparent;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    color: #343a40;
-    text-decoration: underline;
+#mainlist li  {
+   display: block;
+    padding: 8px 16px;
 
-    line-height: 0;
-    margin: .5rem .2rem;
-    display: inline-table;
-
+}
+p.mainlist{
+    margin: 0 auto 1rem;
+    font-size: smaller
 }
 
 #mainlist.about-me {
@@ -413,7 +412,8 @@ ul.about {
 
 section.about-columns {
     position: relative;
-    top: 3rem;
+    top: 4rem;
+    width: 100%;
 }
 
 
@@ -588,6 +588,42 @@ body tr:hover {
     background: #19c589;
 }
 
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+p.column-text {
+    padding-right: 20px;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 281px;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding-top: 1rem;
+    margin: 54px 14px 0 0;
+}
 
 
 
