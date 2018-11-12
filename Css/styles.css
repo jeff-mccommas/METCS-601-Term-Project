@@ -96,7 +96,11 @@ header.main-intro {
 }
 
 section.main {
-
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+    display: -ms-flexbox;
+    flex-wrap: nowrap;
 
 }
 
@@ -246,7 +250,7 @@ h2.intro.secondary {
     font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
-    background: rgba(209, 58, 16, 0.85);
+    background: #d13a10d9;
     text-align: center;
     padding: 10px 0;
     display: none;
