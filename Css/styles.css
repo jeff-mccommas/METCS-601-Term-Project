@@ -246,7 +246,7 @@ h2.intro.secondary {
     font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
-    background: #19c589;
+    background: #d13a10d9;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -316,11 +316,14 @@ input[type=checkbox]:checked ~ #menu {
     margin: 0;
     padding: 0;
     width: 200px;
+    display: contents;
 }
 
 div#mainlist {
-    display: contents;
-
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -6%;
 }
 div#mainlist > header {
     display: block;
@@ -337,7 +340,7 @@ div#mainlist > header {
     text-align: center;
     line-height: 50px;
     font-family: 'Open Sans', sans-serif;
-    color: #333;
+    color: #ffffff;
     background-color: transparent;
     text-decoration: none;
 }
@@ -347,14 +350,18 @@ div#mainlist > header {
     padding: 8px 16px;
 
 }
-p.mainlist{
-    margin: 0 auto 1rem;
-    font-size: smaller
+div.mainlist{
+    margin: 0;
+    font-size: smaller;
+    text-align: left;
 }
 
 #mainlist.about-me {
     position: relative;
     top: 50px;
+    font-size: initial;
+    text-align: left;
+    color: white;
 }
 
 /*footer styles*/
@@ -613,16 +620,19 @@ p.column-text {
 }
 /* The sidebar menu */
 .sidenav {
-    height: 281px;
+    height: 286px;
     width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #f1f1f1;
+    background-color: #ce3a1fd9;
+    color: white;
+    font-size: initial;
     overflow: hidden;
-    padding-top: 1rem;
-    margin: 54px 14px 0 0;
+    padding-top: 0;
+    margin: 54px 14px 20px 0;
+    border-radius: 2px;
 }
 
 
