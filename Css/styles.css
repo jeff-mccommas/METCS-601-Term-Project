@@ -635,8 +635,8 @@ p.column-text {
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 4%;
-    left: 37%;
+    top: 0%;
+    right: 0%;
     background-color: #ce3a1f;
     color: white;
     font-size: initial;
