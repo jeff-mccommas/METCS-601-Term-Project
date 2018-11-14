@@ -1,6 +1,6 @@
 /*insert all css properties here*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-html, body, section {
+html, body, section,article {
     height: 100%;
 }
 body {
@@ -655,8 +655,6 @@ section#skills > article p {
 
 article.skills {
     width: 100%;
-    height: 600px;
-    top: 1.5rem;
 }
 
 article h2 {
@@ -724,6 +722,9 @@ section {
     width: 100%;
 }
 section#myskills >div{
+    height: 100%;
+}
+section#myskills2 >div{
     height: 100%;
 }
 ul.skills-list {
