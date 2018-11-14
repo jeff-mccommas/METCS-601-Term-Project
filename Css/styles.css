@@ -782,10 +782,9 @@ h1 {
 
 }
 article.progress-section {
-    margin-top: 127px;
+    position: relative;
+    top: 136px;
 }
-
-
 
 
 
