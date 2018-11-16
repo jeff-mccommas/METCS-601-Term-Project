@@ -48,9 +48,23 @@
     <h1>Contact Us</h1>
     <form name="RegForm" action="http://bucs601.com/submit.php" onsubmit="return contact()" method="post">
 
-        <p>First Name: <input type="text" size=65 name="firstName" id="firstName"> </p><br>
-        <p>Last Name: <input type="text" size=65 name="lastName" id="lastName"> </p><br>
-        <p>Facilitator: <input type="text" size=65 name="facilitator" id="facilitator"> </p><br>
+        <p>First Name: <input type="text" required size=65 name="firstName" id="firstName"></p><br>
+        <p>Last Name: <input type="text" required size=65 name="lastName" id="lastName"></p><br>
+        <p>Facilitator: <input type="text" required size=65 name="facilitator" id="facilitator"></p><br>
+        <p>
+        <h3>How do you rate this Website:</h3>
+        <p>
+            <input type="radio" id="Totally Awesome" name="radio-group" checked>
+            <label for="Totally Awesome">Totally Awesome</label>
+        </p>
+        <p>
+            <input type="radio" id="Excellent" name="radio-group">
+            <label for="Excellent">Excellent</label>
+        </p>
+        <p>
+            <input type="radio" id="Needs Some work" name="radio-group">
+            <label for="Needs Some work">Needs Some work</label>
+        </p>
 
 
         <br><br>
