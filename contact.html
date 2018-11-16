@@ -46,11 +46,17 @@
 <p>use this form to get in touch with me</p>
 <div class="contact-form">
     <h1>Contact Us</h1>
-    <form>
-        <input type="text" name="field1" placeholder="Your Name" />
-        <input type="email" name="field2" placeholder="Email Address" />
-        <textarea name="field3" placeholder="Type your Message"></textarea>
-        <input type="submit" value="Send" />
+    <form name="RegForm" action="http://bucs601.com/submit.php" onsubmit="return contact()" method="post">
+
+        <p>First Name: <input type="text" size=65 name="firstName" id="firstName"> </p><br>
+        <p>Last Name: <input type="text" size=65 name="lastName" id="lastName"> </p><br>
+        <p>Facilitator: <input type="text" size=65 name="facilitator" id="facilitator"> </p><br>
+
+
+        <br><br>
+        <p><input type="submit" value="send" name="Submit">
+            <input type="reset" value="Reset" name="Reset">
+        </p>
     </form>
 </div>
 
@@ -59,5 +65,6 @@
     <p class="copy">Copyright 2018 Jeff McCommas</p>
 </footer>
 <script src="Scripts/script.js"></script>
+<script src="Scripts/contact.js"></script>
 </body>
 </html>

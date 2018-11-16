@@ -525,11 +525,13 @@ body tr:hover {
 }
 
 .contact-form input[type="submit"],
+.contact-form input[type="reset"],
 .contact-form input[type="button"] {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     width: 100%;
+    margin-bottom: 2px;
     padding: 3%;
     background: #19c589;
     border-bottom: 2px solid #19c589;
@@ -537,6 +539,8 @@ body tr:hover {
     border-right-style: none;
     border-left-style: none;
     color: #fff;
+    font-size: 140%;
+    text-transform: capitalize;
 }
 
 .contact-form input[type="submit"]:hover,
