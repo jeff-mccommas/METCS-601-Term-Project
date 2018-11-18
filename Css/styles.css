@@ -597,7 +597,23 @@ body tr:hover {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+.contact-form input:required,
+textarea:required {
+    /*box-shadow: 0 0 1px #ff0000;*/
+    padding: 3%;
+    border: 1px solid #ff0000;
 
+}
+.contact-form input:required + label {
+    color: red;
+}
+.contact-form label {
+    display: block;
+}
+.contact-form input + label {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 /* Create two equal columns that floats next to each other */
 .column {

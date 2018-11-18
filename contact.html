@@ -47,10 +47,11 @@
 <div class="contact-form">
     <h1>Contact Us</h1>
     <form name="RegForm" action="http://bucs601.com/submit.php" onsubmit="return contact()" method="post">
+       <p> * denotes required field</p>
 
-        <p>First Name: <input type="text" required minlength="4" pattern="[a-z]{2,15}"title="Username should only contain lowercase letters no numbers and minimum length is 2." maxlength="12"  size=65 name="firstName" id="firstName"></p><br>
-        <p>Last Name: <input type="text" required size=65 name="lastName" id="lastName"></p><br>
-        <p>Facilitator: <input type="text" required size=65 name="facilitator" id="facilitator"></p><br>
+        <p> *First Name: <input type="text" required minlength="4" pattern="[a-z]{2,15}"title="Username should only contain lowercase letters no numbers and minimum length is 2." maxlength="12"  size=65 name="firstName" id="firstName"></p><br>
+        <p> *Last Name: <input type="text" required title="last name cannot be blank" size=65 name="lastName" id="lastName"></p><br>
+        <p>*Facilitator: <input type="text" required title="facilitator cannot be blank" size=65 name="facilitator" id="facilitator"></p><br>
         <p>
         <h3>How do you rate this Website:</h3>
         <p>
