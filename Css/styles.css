@@ -598,6 +598,7 @@ body tr:hover {
     transform: scale(1);
 }
 
+
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
