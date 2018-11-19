@@ -525,11 +525,13 @@ body tr:hover {
 }
 
 .contact-form input[type="submit"],
+.contact-form input[type="reset"],
 .contact-form input[type="button"] {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     width: 100%;
+    margin-bottom: 2px;
     padding: 3%;
     background: #19c589;
     border-bottom: 2px solid #19c589;
@@ -537,11 +539,80 @@ body tr:hover {
     border-right-style: none;
     border-left-style: none;
     color: #fff;
+    font-size: 140%;
+    text-transform: capitalize;
 }
 
 .contact-form input[type="submit"]:hover,
 .contact-form input[type="button"]:hover {
     background: #19c589;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #19c589;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.contact-form input:required,
+textarea:required {
+    /*box-shadow: 0 0 1px #ff0000;*/
+    padding: 3%;
+    border: 1px solid #ff0000;
+
+}
+.contact-form input:required + label {
+    color: red;
+}
+.contact-form label {
+    display: block;
+}
+.contact-form input + label {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -816,6 +887,42 @@ h3.welcome{
     margin: auto;
 }
 /* end welcome message CSS
+
+ */
+/*flexbox justify content classes*/
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.d-inline-flex {
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+}
+.justify-content-start {
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+}
+
+.justify-content-end {
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.justify-content-around {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+}
 
 
 
