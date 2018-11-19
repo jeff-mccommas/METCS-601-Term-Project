@@ -799,10 +799,12 @@ section#myskills2 >div{
     height: 100%;
 }
 ul.skills-list {
-    display: contents;
+    display: grid;
+    text-align: left;
 }
 ul.skills-list li {
     margin: 2px 0 2px;
+    height: 28px;
 }
 
 article {
@@ -846,7 +848,7 @@ h1 {
     background-image:
             linear-gradient(to left,  #438600 , #8fd747 );
     background-size:100% 100%;
-    background-position:var(--p,-53px) 0;
+    background-position:var(--p, 0px) 0;
     width:400px;
     background-repeat:no-repeat;
     background-color:#ccc;
@@ -854,7 +856,7 @@ h1 {
 }
 article.progress-section {
     position: relative;
-    top: 136px;
+    top: 158px;
 }
 
 
