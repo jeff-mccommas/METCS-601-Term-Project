@@ -194,7 +194,7 @@ h2.intro.secondary {
     font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
-    background: #d13a10d9;
+    background: rgba(209, 58, 16, 0.85);
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -845,13 +845,9 @@ h1 {
 .progress {
     height:26px;
     margin:5px;
-    background-image:
-            linear-gradient(to left,  #438600 , #8fd747 );
     background-size:100% 100%;
-    background-position:var(--p, 0px) 0;
     width:400px;
-    background-repeat:no-repeat;
-    background-color:#ccc;
+    background: #ccc linear-gradient(to left, #438600, #8fd747) no-repeat var(--p, 0px) 0;
 
 }
 article.progress-section {
