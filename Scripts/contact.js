@@ -1,58 +1,19 @@
-function contact() {
-    const name = document.forms["RegForm"]["Name"];
-
-    if (firstName.value === "") {
-        window.alert("Please enter your name.");
-        name.focus();
-        return false;
-    }
-    if (facilitator.value === "") {
-        window.alert("Please enter your name.");
-        name.focus();
-        return false;
+function contact() {// Add the novalidate attribute when the JS loads
+    var forms = document.querySelectorAll('.validate');
+    for (var i = 0; i < forms.length; i++) {
+        forms[i].setAttribute('novalidate', true);
     }
 
-    // if (lastName.value === "") {
-    //     window.alert("Please enter your address.");
-    //     name.focus();
-    //     return false;
-    // }
-    //
-    // if (email.value === "") {
-    //     window.alert("Please enter a valid e-mail address.");
-    //     email.focus();
-    //     return false;
-    // }
-    //
-    // if (email.value.indexOf("@", 0) < 0) {
-    //     window.alert("Please enter a valid e-mail address.");
-    //     email.focus();
-    //     return false;
-    // }
-    //
-    // if (email.value.indexOf(".", 0) < 0) {
-    //     window.alert("Please enter a valid e-mail address.");
-    //     email.focus();
-    //     return false;
-    // }
-    //
-    // if (phone.value == "") {
-    //     window.alert("Please enter your telephone number.");
-    //     phone.focus();
-    //     return false;
-    // }
-    //
-    // if (password.value == "") {
-    //     window.alert("Please enter your password");
-    //     password.focus();
-    //     return flase;
-    // }
-    //
-    // if (what.selectedIndex < 1) {
-    //     alert("Please enter your course.");
-    //     what.focus();
-    //     return false;
-    // }
 
-    return true;
+// Listen to all blur events
+    document.addEventListener('blur', function (event) {
+
+        // Only run if the field is in a form to be validated
+        if (!event.target.form.classList.contains('validate')) return;
+
+        // Validate the field
+        var error = event.target.validity;
+        console.log(error);
+
+    }, true);
 }
