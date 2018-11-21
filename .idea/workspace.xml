@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="side by side divs">
-      <change afterPath="$PROJECT_DIR$/data/degrees.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/roles.json" afterDir="false" />
+    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,19 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/roles.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2185">
-              <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/degrees.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="164">
               <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
@@ -291,7 +280,7 @@
       <workItem from="1542697825651" duration="1499000" />
       <workItem from="1542699788438" duration="20000" />
       <workItem from="1542699895981" duration="435000" />
-      <workItem from="1542728290726" duration="1220000" />
+      <workItem from="1542728290726" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="side by side divs">
       <created>1541856302284</created>
@@ -307,17 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1542364971730</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added degrees json">
+      <created>1542834852227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542834852227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167796000" />
+    <option name="totallyTimeSpent" value="168387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,9 +323,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995528" visible="true" weight="0.31377247" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004472" side_tool="true" weight="0.32988802" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996975" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4984876" visible="true" weight="0.31377247" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015124" side_tool="true" weight="0.31377247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -339,10 +334,37 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="side by side divs" />
     <MESSAGE value="added flexbox classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flexbox classes" />
+    <MESSAGE value="added degrees json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added degrees json" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_variables.sass" />
@@ -469,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/degrees.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="164">
           <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
