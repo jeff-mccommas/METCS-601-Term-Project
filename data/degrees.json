@@ -1,0 +1,812 @@
+{
+  "data": [
+    {
+      "school": "UH",
+      "type": "bachelor",
+      "url": "http://distance.uh.edu/online/online_undergraduate.html",
+      "name": "Psychology (B.A.)",
+      "college": "CLASS",
+      "collegeName": "College of Liberal Arts and Sciences"
+    },
+    {
+      "school": "UH",
+      "type": "bachelor",
+      "url": "http://distance.uh.edu/online/online_undergraduate.html",
+      "name": "Psychology (B.S.)",
+      "college": "CLASS",
+      "collegeName": "College of Liberal Arts and Sciences"
+    },
+    {
+      "school": "UH",
+      "type": "bachelor",
+      "url": "http://distance.uh.edu/online/online_undergraduate.html",
+      "name": "Organizational Leadership and Supervision (B.S.)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "bachelor",
+      "url": "http://distance.uh.edu/online/online_undergraduate.html",
+      "name": "Retailing and Consumer Science (B.S.)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Administration and Supervision-Higher Education (M.Ed.)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://www.coe.uh.edu/academic-programs/mathematics-education/index.php",
+      "name": "Curriculum and Instruction-Mathematics Education (M.Ed.)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Special Education (M.Ed.)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Mathematics (M.A.)",
+      "college": "NSM",
+      "collegeName": "College of Natural Sciences and Mathematics"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Construction Management (M.S.)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Foresight (M.S.)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Corporate Entrepreneurship (Undergraduate certificate)",
+      "college": "BCOB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Designing and Developing Educational Graphics (Graduate certificate)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Designing and Developing Educational Multimedia (Graduate certificate)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Online Teaching and Learning (Graduate certificate)",
+      "college": "COE",
+      "collegeName": "College of Education"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Computational Math Option (Graduate certificate)",
+      "college": "NSM",
+      "collegeName": "College of Natural Sciences and Mathematics"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Financial Math Option (Graduate certificate)",
+      "college": "NSM",
+      "collegeName": "College of Natural Sciences and Mathematics"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Mathematical Statistics Option (Graduate certificate)",
+      "college": "NSM",
+      "collegeName": "College of Natural Sciences and Mathematics"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Construction Management (Post-baccalaureate/graduate certificate)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Retailing and Consumer Science (Undergraduate certificate)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Strategic Foresight (Post-baccalaureate/graduate certificate)",
+      "college": "COT",
+      "collegeName": "College of Technology"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Advanced Subsea Engineering (Graduate certificate)",
+      "college": "ENGR",
+      "collegeName": "College of Engineering"
+    },
+    {
+      "school": "UH",
+      "type": "certificate",
+      "url": "http://distance.uh.edu/online/online_certificates.html",
+      "name": "Subsea Engineering (Graduate certificate)",
+      "college": "ENGR",
+      "collegeName": "College of Engineering"
+    },
+    {
+      "school": "UH",
+      "type": "master",
+      "url": "http://distance.uh.edu/online/online_graduate.html",
+      "name": "Subsea Engineering (M.S.)",
+      "college": "ENGR",
+      "collegeName": "College of Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "bachelor",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/BUS/School-of-Business/Programs/Finance/PDF/BS-Finance-Online.pdf",
+      "name": "Finance (B.S.)",
+      "college": "SB",
+      "collegeName": "School of Business"
+    },
+    {
+      "school": "UHCL",
+      "type": "bachelor",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/BUS/School-of-Business/Programs/General-Business/PDF/BS-General%20Business.pdf",
+      "name": "General Business (B.S.)",
+      "college": "SB",
+      "collegeName": "School of Business"
+    },
+    {
+      "school": "UHCL",
+      "type": "bachelor",
+      "url": "http://www.uhcl.edu/XDR/Render/catalog/10/#A0212",
+      "name": "Criminology (B.S.)",
+      "college": "SHSH",
+      "collegeName": "School of Human Sciences and Humanities"
+    },
+    {
+      "school": "UHCL",
+      "type": "bachelor",
+      "url": "http://www.uhcl.edu/XDR/Render/catalog/10/#A026",
+      "name": "Psychology (B.S.)",
+      "college": "SHSH",
+      "collegeName": "School of Human Sciences and Humanities"
+    },
+    {
+      "school": "UHCL",
+      "type": "bachelor",
+      "url": "http://www.uhcl.edu/XDR/Render/catalog/10/#A028",
+      "name": "Public Service Leadership (B.S.)",
+      "college": "SHSH",
+      "collegeName": "School of Human Sciences and Humanities"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/BUS/School-of-Business/Programs/MBA/PDF/MBA%20-%20Business%20Admin.%20Online.pdf",
+      "name": "Business Administration (M.B.A.)",
+      "college": "SB",
+      "collegeName": "School of Business"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/BUS/School-of-Business/Programs/Human-Resource-Management/PDF/MA-Online%20Human%20Resource%20Mgmt.pdf",
+      "name": "Human Resource Management (M.A.)",
+      "college": "SB",
+      "collegeName": "School of Business"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/BUS/School-of-Business/Programs/Finance/PDF/MS-Finance%20Online.pdf",
+      "name": "Finance (M.S.)",
+      "college": "SB",
+      "collegeName": "School of Business"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/Programs/Instructional_Technology_MS/INST_MS",
+      "name": "Instructional Design and Technology (M.S.)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Engineering/eng_management/EMGT_programreq#online_option",
+      "name": "Engineering Management (M.S.)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Natural_Sciences/Environ_Sciences/Environ_SciencesMS/Environ_Bas_Req",
+      "name": "Environmental Science (M.S.)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Engineering/Software_EngineeringMS/SE_Core_Curriculum",
+      "name": "Software Engineering (M.S.)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "master",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Engineering/Systems_EngineeringMS/SENG_Curriculum",
+      "name": "Systems Engineering (M.S.)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/CERTIFICATIONS/ADDONCERTS/7-12TechApp/",
+      "name": "7-12 Technology Applications (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/CERTIFICATIONS/ADDONCERTS/EC-12TECHAPP",
+      "name": "EC-12 Technology Applications (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/CERTIFICATIONS/OTHER/UHCL_Online_Dist_Ed",
+      "name": "Distance Educator Certificate (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/HSH/HOME/Certificates/Fitness%20and%20Human%20Performance",
+      "name": "Fitness and Human Performance (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/CERTIFICATIONS/MASTERTEACHERPLAN/MSTTECHTEACHER_PROFDEV",
+      "name": "Master Technology Teacher (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SOE/CERTIFICATIONS/OTHER/UHCL_Performance_Technology",
+      "name": "Performance Technology (Graduate certificate)",
+      "college": "SE",
+      "collegeName": "School of Education"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Engineering/Software_EngineeringMS/swen_certificate",
+      "name": "Software Engineering (Graduate certificate)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHCL",
+      "type": "certificate",
+      "url": "http://prtl.uhcl.edu/portal/page/portal/SCE/Engineering/Systems_EngineeringMS/SENG_Certificate",
+      "name": "Systems Engineering (Graduate certificate)",
+      "college": "SSCE",
+      "collegeName": "School of Science and Computer Engineering"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/facis/cis_index.htm",
+      "name": "Enterprise Information Systems (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/facis/finance_index.htm",
+      "name": "Finance (B.B.A.) ",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/facis/finance_index.htm",
+      "name": "General Business (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/mmba/irm.htm",
+      "name": "Insurance and Risk Management (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/facis/int_bus_index.htm",
+      "name": "International Business (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/mmba/management_index.htm",
+      "name": "Management (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/mmba/marketing_index.htm",
+      "name": "Marketing (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/business/mmba/spply_chn_index.htm",
+      "name": "Supply Chain Management (B.B.A.)",
+      "college": "COB",
+      "collegeName": "College of Business"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/humanities/arts_humanities/Humanities/index.htm",
+      "name": "Humanities (B.A.)",
+      "college": "CHSB",
+      "collegeName": "College of Humanities and Social Sciences"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/humanities/english/pw.html",
+      "name": "Professional Writing (B.S.)",
+      "college": "CHSB",
+      "collegeName": "College of Humanities and Social Sciences"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/humanities/sos/psychology.htm",
+      "name": "Psychology (B.S.)",
+      "college": "CHSB",
+      "collegeName": "College of Humanities and Social Sciences"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/publicservice/cj/CJ_BSCJ.htm",
+      "name": "Criminal Justice (B.S.)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/publicservice/cj/CJ_BAAS.htm",
+      "name": "Criminal Justice (B.A.A.S.)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/programs/baasaa/",
+      "name": "Applied Administration (B.A.A.S.)",
+      "college": "UC",
+      "collegeName": "University College"
+    },
+    {
+      "school": "UHD",
+      "type": "bachelor",
+      "url": "http://www.uhd.edu/academic/colleges/university/bsis/",
+      "name": "Interdisciplinary Studies (B.S.)",
+      "college": "UC",
+      "collegeName": "University College"
+    },
+    {
+      "school": "UHD",
+      "type": "master",
+      "url": "http://www.uhd.edu/academic/colleges/humanities/sos/ma/index.html",
+      "name": "Non-Profit Management (M.A.)",
+      "college": "CHSB",
+      "collegeName": "College of Humanities and Social Sciences"
+    },
+    {
+      "school": "UHD",
+      "type": "master",
+      "url": "http://www.uhd.edu/academic/colleges/publicservice/cj/online/",
+      "name": "Criminal Justice (M.S.)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "master",
+      "url": "http://www.uhd.edu/academic/colleges/publicservice/urbaned/mat/index.php",
+      "name": "Teaching (M.A.)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "certificate",
+      "url": "http://www.uhd.edu/prospective/continuinged/abtc/elearning/newcourses/AutoCADFund.html",
+      "name": "AutoCAD Certification (Non-credit certificate)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "certificate",
+      "url": "http://www.uhd.edu/academic/colleges/business/cpe/plm/index.php",
+      "name": "Professional Land Management (Non-credit certificate)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "certificate",
+      "url": "http://www.uhd.edu/academic/colleges/business/cpe/rmc/",
+      "name": "Retail Management (Non-credit certificate)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "certificate",
+      "url": "http://www.uhd.edu/academic/colleges/business/row/",
+      "name": "Right of Way (Non-credit certificate)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHD",
+      "type": "certificate",
+      "url": "http://www.yougotclass.org/catalog-complete.cfm/UHD",
+      "name": "Skills for the 21st Century (Non-credit certificate)",
+      "college": "CPS",
+      "collegeName": "College of Public Service"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/AAS.asp",
+      "name": "Applied Arts and Sciences (B.A.A.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/communications.asp",
+      "name": "Communication (B.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/communications.asp",
+      "name": "Communication (B.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/criminal_justice.asp",
+      "name": "Criminal Justice (B.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/889.htm",
+      "name": "Humanities-Creative Writing (B.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/humanities_english_lit.asp",
+      "name": "Humanities-English (B.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/humanities_history.asp",
+      "name": "Humanities-History (B.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/psychology.asp",
+      "name": "Psychology (B.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/asa/undergraduate/psychology.asp",
+      "name": "Psychology (B.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/bus/BBA/healthcareadminonline/default.aspx",
+      "name": "Healthcare Administration (B.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/bus/BBA/management/default.aspx",
+      "name": "Management (B.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/bus/BBA/marketingonline/default.aspx",
+      "name": "Marketing (B.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "bachelor",
+      "url": "http://www.uhv.edu/bus/BBA/genbus/default.aspx",
+      "name": "General Business (B.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/asa/graduate/ms_cis.asp",
+      "name": "Computer Information Systems (M.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/asa/graduate/mais.asp",
+      "name": "Interdisciplinary Studies (M.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/msINpublishing/",
+      "name": "Publishing (M.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/bus/MBA/globalmba/default.aspx",
+      "name": "Global M.B.A (M.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/bus/MBA/BridgeGlobalMBAOnline/",
+      "name": "Global M.B.A. Bridge (M.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/bus/MBA/strategicmba/default.aspx",
+      "name": "Strategic M.B.A. (M.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/bus/MBA/BridgeStrategicMBA/",
+      "name": "Strategic M.B.A. Bridge (M.B.A.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/bus/MSEDE/",
+      "name": "Economic Development and Entrepreneurship (M.S.)",
+      "college": "SBA",
+      "collegeName": "School of Business Administration"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/AHED.aspx",
+      "name": "Adult and Higher Education (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/66.aspx",
+      "name": "Literacy Studies (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/123.aspx",
+      "name": "Special Education (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/ConcentrationInAutismSpectrumDisorders.aspx",
+      "name": "Special Education-Autism Spectrum Disorders (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/114.aspx",
+      "name": "Elementary Education (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "certificate",
+      "url": "http://www.uhv.edu/edu/ProfessionalCoachingCertificate.aspx",
+      "name": "Professional Coaching (Graduate certificate)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "certificate",
+      "url": "http://www.uhv.edu/edu/67.aspx",
+      "name": "Reading Specialist Certification",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "certificate",
+      "url": "http://www.uhv.edu/edu/68.aspx",
+      "name": "Superintendent Certification",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "certificate",
+      "url": "http://www.uhv.edu/edu/VOICE.aspx",
+      "name": "Victoria Online Initial Certification for Educators (Post-baccalaureate)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/asa/graduate/923.htm",
+      "name": "Computer Science (M.S.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/asa/graduate/creativewriting.aspx",
+      "name": "Creative Writing (M.F.A.)",
+      "college": "SAS",
+      "collegeName": "School of Arts and Sciences"
+    },
+    {
+      "school": "UHV",
+      "type": "master",
+      "url": "http://www.uhv.edu/edu/CurriculumAndInstructionMEdEducationalTechConcentration.aspx",
+      "name": "Curriculum and Instruction - Educational Technology (M.Ed.)",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    },
+    {
+      "school": "UHV",
+      "type": "certificate",
+      "url": "http://www.uhv.edu/edu/66.aspx",
+      "name": "Master Reading Teacher (MRT) Certification",
+      "college": "SEHD",
+      "collegeName": "School of Education and Human Development"
+    }
+  ]
+}

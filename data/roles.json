@@ -1,0 +1,116 @@
+{
+  "my_roles" : [
+    {
+      "role": {
+        "date": "01/2018",
+        "show": "Noises Off",
+        "role": "Freddie / Philip"
+      }
+    },
+    {
+      "role": {
+        "date": "10/2017",
+        "show": "Spamalot",
+        "role": "Sir Bedevere"
+      }
+    },
+    {
+      "role": {
+        "date": "04/2017",
+        "show": "The Crucible",
+        "role": "Judge Hathorne"
+      }
+    },
+    {
+      "role": {
+        "date": "03/2017",
+        "show": "Beauty And The Beast",
+        "role": "Maurice"
+      }
+    },
+    {
+      "role": {
+        "date": "11/2016",
+        "show": "The Odd Couple",
+        "role": "Vinnie"
+      }
+    },
+    {
+      "role": {
+        "date": "10/2016",
+        "show": "Fiddler on the Roof",
+        "role": "Avram"
+      }
+    },
+    {
+      "role": {
+        "date": "06/2016",
+        "show": "Little Shop of Horrors",
+        "role": "Mr. Mushnik"
+      }
+    },
+    {
+      "role": {
+        "date": "04/2016",
+        "show": "The Little Mermaid",
+        "role": "Grimsby"
+      }
+    },
+    {
+      "role": {
+        "date": "01/2016",
+        "show": "Othello",
+        "role": "Brabantio"
+      }
+    },
+    {
+      "role": {
+        "date": "11/2015",
+        "show": "The Addams Family",
+        "role": "Ensemble"
+      }
+    },
+    {
+      "role": {
+        "date": "09/2015",
+        "show": "Lost in Yonkers",
+        "role": "Eddie"
+      }
+    },
+    {
+      "role": {
+        "date": "07/2015",
+        "show": "Henry IV, Part One",
+        "role": "Worcester"
+      }
+    },
+    {
+      "role": {
+        "date": "03/2015",
+        "show": "Music Man",
+        "role": "Charlie Cowell"
+      }
+    },
+    {
+      "role": {
+        "date": "10/2014",
+        "show": "Peter Pan",
+        "role": "Starkey"
+      }
+    },
+    {
+      "role": {
+        "date": "07/2014",
+        "show": "Mid Summer Night's Dream ",
+        "role": "Theseus"
+      }
+    },
+    {
+      "role": {
+        "date": "10/2013",
+        "show": "Les Miserables",
+        "role": "Chain Gang / Ensemble"
+      }
+    }
+  ]
+}
