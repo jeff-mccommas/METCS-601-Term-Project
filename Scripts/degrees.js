@@ -1,10 +1,14 @@
+const data= "data/degrees.json"
+
 /* The function */
 
 function json2table(json, classes) {
-    var cols = Object.keys(json[0]);
+    const cols = Object.keys(json[0]);
 
-    var headerRow = '';
-    var bodyRows = '';
+
+    let headerRow = '';
+    let bodyRows = '';
+
 
     classes = classes || '';
 
@@ -33,3 +37,18 @@ function json2table(json, classes) {
         '</tr></thead><tbody>' +
         bodyRows +
         '</tbody></table>';
+}
+
+
+document.getElementById('degrees').innerHTML = json2table(data, 'table');
+
+/* Live example */
+
+const dom = {
+    table: document.getElementById('degrees'),
+};
+
+dom.data.value = JSON.stringify(data);
+dom.data.addEventListener('input', function() {
+    dom.table.innerHTML = json2table(JSON.parse(dom.data.value), 'table');
+});

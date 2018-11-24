@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="">
+    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="create degrees.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/degrees.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/degrees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,17 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-373">
+            <state relative-caret-position="190">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/degrees.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/degrees.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -54,17 +66,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2014">
-              <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="143" selection-end-column="24" />
+            <state relative-caret-position="252">
+              <caret line="105" column="33" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8740">
-              <caret line="460" selection-start-line="460" selection-end-line="460" />
+            <state relative-caret-position="297">
+              <caret line="461" column="22" lean-forward="true" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -157,7 +169,6 @@
         <option value="$PROJECT_DIR$/Css/grid.css" />
         <option value="$PROJECT_DIR$/grid.html" />
         <option value="$PROJECT_DIR$/Css/media.css" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/photo-gallery.html" />
         <option value="$PROJECT_DIR$/projects.html" />
@@ -165,11 +176,13 @@
         <option value="$PROJECT_DIR$/Scripts/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/Css/styles.css" />
         <option value="$PROJECT_DIR$/Scripts/contact.js" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/data/roles.json" />
         <option value="$PROJECT_DIR$/data/degrees.json" />
+        <option value="$PROJECT_DIR$/Scripts/degrees.js" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/Css/styles.css" />
       </list>
     </option>
   </component>
@@ -303,16 +316,31 @@
       <option name="project" value="LOCAL" />
       <updated>1542834852227</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added my schools to json">
+      <created>1543062400205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543062400206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create degrees.js">
+      <created>1543065145698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543065145698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168387000" />
+    <option name="totallyTimeSpent" value="172367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <frame x="-51" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22807017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -323,8 +351,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996975" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4984876" visible="true" weight="0.31377247" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996975" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4984876" weight="0.31377247" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015124" side_tool="true" weight="0.31377247" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,12 +387,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="side by side divs" />
     <MESSAGE value="added flexbox classes" />
     <MESSAGE value="added degrees json" />
-    <option name="LAST_COMMIT_MESSAGE" value="added degrees json" />
+    <MESSAGE value="added my schools to json" />
+    <MESSAGE value="create degrees.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="create degrees.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_variables.sass" />
@@ -430,20 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="106" column="15" selection-start-line="106" selection-start-column="15" selection-end-line="143" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8740">
-          <caret line="460" selection-start-line="460" selection-end-line="460" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/skills.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -477,22 +507,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373">
+        <state relative-caret-position="190">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/roles.json">
+    <entry file="file://$PROJECT_DIR$/data/roles.json" />
+    <entry file="file://$PROJECT_DIR$/data/degrees.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="115" column="1" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/degrees.json">
+    <entry file="file://$PROJECT_DIR$/Scripts/degrees.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="290">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="105" column="33" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="461" column="22" lean-forward="true" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
         </state>
       </provider>
     </entry>

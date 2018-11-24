@@ -458,6 +458,11 @@ tbody tr:nth-child(odd) {
 body tr:hover {
     background: #E1E1E1;
 }
+h1.degree {
+    font-size: 1.3rem;
+    margin: 50px 50px 50px 0;
+    color: #3366bb;
+}
 
 /*end table element styles*/
 
