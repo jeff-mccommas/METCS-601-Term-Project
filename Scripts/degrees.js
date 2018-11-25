@@ -2,53 +2,47 @@ const data= "data/degrees.json"
 
 /* The function */
 
-function json2table(json, classes) {
-    const cols = Object.keys(json[0]);
+function CreateTableFromJSON() {
+    let i;
+    const mydegrees = data;
 
-
-    let headerRow = '';
-    let bodyRows = '';
-
-
-    classes = classes || '';
-
-    function capitalizeFirstLetter(string) {
-        return string.charAt(0).toUpperCase() + string.slice(1);
+    // EXTRACT VALUE FOR HTML HEADER.
+    // ('Book ID', 'Book Name', 'Category' and 'Price')
+    var col = [];
+    for (i = 0; i < mydegrees.length; i++) {
+        for (var key in mydegrees[i]) {
+            if (col.indexOf(key) === -1) {
+                col.push(key);
+            }
+        }
     }
 
-    cols.map(function(col) {
-        headerRow += '<th>' + capitalizeFirstLetter(col) + '</th>';
-    });
+    // CREATE DYNAMIC TABLE.
+    var table = document.createElement("table");
 
-    json.map(function(row) {
-        bodyRows += '<tr>';
+    // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
 
-        cols.map(function(colName) {
-            bodyRows += '<td>' + row[colName] + '</td>';
-        })
+    var tr = table.insertRow(-1);                   // TABLE ROW.
 
-        bodyRows += '</tr>';
-    });
+    for (i = 0; i < col.length; i++) {
+        var th = document.createElement("th");      // TABLE HEADER.
+        th.innerHTML = col[i];
+        tr.appendChild(th);
+    }
 
-    return '<table class="' +
-        classes +
-        '"><thead><tr>' +
-        headerRow +
-        '</tr></thead><tbody>' +
-        bodyRows +
-        '</tbody></table>';
+    // ADD JSON DATA TO THE TABLE AS ROWS.
+    for (i = 0; i < mydegrees.length; i++) {
+
+        tr = table.insertRow(-1);
+
+        for (let j = 0; j < col.length; j++) {
+            let tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = mydegrees[i][col[j]];
+        }
+    }
+
+    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+    const divContainer = document.getElementById("showData");
+    divContainer.innerHTML = "";
+    divContainer.appendChild(table);
 }
-
-
-document.getElementById('degrees').innerHTML = json2table(data, 'table');
-
-/* Live example */
-
-const dom = {
-    table: document.getElementById('degrees'),
-};
-
-dom.data.value = JSON.stringify(data);
-dom.data.addEventListener('input', function() {
-    dom.table.innerHTML = json2table(JSON.parse(dom.data.value), 'table');
-});
