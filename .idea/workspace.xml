@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="side by side divs">
-      <change beforePath="$PROJECT_DIR$/Css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-    </list>
+    <list default="true" id="16860c5b-b81a-4093-8113-e861a601b7b7" name="Default Changelist" comment="side by side divs" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="431">
+              <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -242,8 +239,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="23" />
+    <option name="x" value="142" />
+    <option name="y" value="50" />
     <option name="width" value="2422" />
     <option name="height" value="1132" />
   </component>
@@ -355,10 +352,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146582000" />
+    <option name="totallyTimeSpent" value="146586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="2422" height="1132" extended-state="0" />
+    <frame x="466" y="223" width="2422" height="1132" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26405665" />
@@ -531,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="54" column="46" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+        <state relative-caret-position="431">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
