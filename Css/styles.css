@@ -194,7 +194,7 @@ h2.intro.secondary {
     font-family: "Open Sans";
     text-decoration: none;
     color: #fff;
-    background: #d13a10d9;
+    background: rgba(209, 58, 16, 0.85);
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -458,6 +458,11 @@ tbody tr:nth-child(odd) {
 body tr:hover {
     background: #E1E1E1;
 }
+h1.degree {
+    font-size: 1.3rem;
+    margin: 50px 50px 50px 0;
+    color: #3366bb;
+}
 
 /*end table element styles*/
 
@@ -596,6 +601,23 @@ body tr:hover {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+.contact-form input:required,
+textarea:required {
+    /*box-shadow: 0 0 1px #ff0000;*/
+    padding: 3%;
+    border: 1px solid #ff0000;
+
+}
+.contact-form input:required + label {
+    color: red;
+}
+.contact-form label {
+    display: block;
+}
+.contact-form input + label {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -782,10 +804,12 @@ section#myskills2 >div{
     height: 100%;
 }
 ul.skills-list {
-    display: contents;
+    display: grid;
+    text-align: left;
 }
 ul.skills-list li {
     margin: 2px 0 2px;
+    height: 28px;
 }
 
 article {
@@ -826,18 +850,14 @@ h1 {
 .progress {
     height:26px;
     margin:5px;
-    background-image:
-            linear-gradient(to left,  #438600 , #8fd747 );
     background-size:100% 100%;
-    background-position:var(--p,-53px) 0;
     width:400px;
-    background-repeat:no-repeat;
-    background-color:#ccc;
+    background: #ccc linear-gradient(to left, #438600, #8fd747) no-repeat var(--p, 0px) 0;
 
 }
 article.progress-section {
     position: relative;
-    top: 136px;
+    top: 158px;
 }
 
 
