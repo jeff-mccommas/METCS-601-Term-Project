@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "my_roles" : [
     {
       "role": {
@@ -24,6 +25,33 @@
     },
     {
       "role" : {
+=======
+  "my_roles": [
+    {
+      "role": {
+        "school": "Boston University",
+        "type": "MS",
+        "url": "https://www.bu.edu/",
+        "name": "Web Application Development(M.S.)",
+        "college": "CLASS",
+        "Yearconferred": "(2020)",
+        "collegeName": "Metropolitan College"
+      }
+    },
+    {
+      "role": {
+        "school": "Full Sail University",
+        "type": "BS",
+        "url": "https://www.fullsail.edu/",
+        "name": "Web Design & Development(B.S.)",
+        "college": "CLASS",
+        "Yearconferred": "(2013)",
+        "collegeName": "Technology"
+      }
+    },
+    {
+      "role": {
+>>>>>>> 5be777a1e344f5bd0cbd1192687d3a00a9931af9
         "school": "Johnson & Wales University",
         "type": "AA",
         "url": "https://www.jwu.edu/",
