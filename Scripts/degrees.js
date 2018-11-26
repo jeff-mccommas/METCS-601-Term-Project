@@ -1,92 +1,45 @@
-const data= "data/degrees.json"
 
-/* The function */
-//var mydegrees = [];
-// $(function() {
-
-
-//     // $.getJSON('https://github.com/typicode/json-server/blob/master/routes.json', function(data) {
-//     //    alert("AAA") ;
-//     //     mydegrees=JSON.parse(data.data);
-//     //     console.log(mydegrees);
-//     // });
-
-//     var txtFile = "D:/degrees.json";
-//     var file = new File([""],txtFile);
-    
-//     file.open("r"); // open file with read access
-//     var str = "";
-//     while (!file.eof) {
-//         // read each line of text
-//         str += file.readln() + "\n";
-//     }
-//     file.close();
-//     alert(str);
- 
-//  });
-
-function CreateTableFromJSON() {
-    let i;
+function ajaxClick() {
+    //Setup the AJAX Call
+    var xhttp = new XMLHttpRequest();
+     var url = "http://www.bostonhc.com/data/degrees.json";
+    //var url = "http://www.wynerfamily.com/json/roles.json";
+    //var url="data/degrees.json";
+    //Handle Ajax Results
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          var myArr = JSON.parse(this.responseText);
+          displayResults(myArr);
+      }
+    }
   
-    // var mydegrees = JSON.parse(data);;
-    // console.log("ddddddddddddddddddddddd"+data);
-    // var mydegrees = [
-    //     {
-    //         "Book ID": "1",
-    //         "Book Name": "Computer Architecture",
-    //         "Category": "Computers",
-    //         "Price": "125.60"
-    //     },
-    //     {
-    //         "Book ID": "2",
-    //         "Book Name": "Asp.Net 4 Blue Book",
-    //         "Category": "Programming",
-    //         "Price": "56.00"
-    //     },
-    //     {
-    //         "Book ID": "3",
-    //         "Book Name": "Popular Science",
-    //         "Category": "Science",
-    //         "Price": "210.40"
-    //     }
-    // ]
-    // EXTRACT VALUE FOR HTML HEADER.
-    // ('Book ID', 'Book Name', 'Category' and 'Price')
-    var col = [];
-    for (i = 0; i < mydegrees.length; i++) {
-        for (var key in mydegrees[i]) {
-            if (col.indexOf(key) === -1) {
-                col.push(key);
-            }
-        }
+    //Make AJAX Call
+    xhttp.open("GET", url, true);
+    xhttp.send();
+  };
+  
+  function displayResults(arr) {
+    //Setup Table
+    var table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Name</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
+    //var table = "<table><tr><th>Date</th><th>Production</th><th>Role</th></tr>";
+    //Fill Table from JSON
+    console.log("arrrrrrrrrrrrrrrrrrrrrrr"+arr);
+    for (i in arr.my_roles) {
+      table += "<tr>";
+      table += "<td>" + arr.my_roles[i].role.school + "</td>";
+      table += "<td>" + arr.my_roles[i].role.type + "</td>";
+      table += "<td>" + arr.my_roles[i].role.url + "</td>";
+      table += "<td>" + arr.my_roles[i].role.name + "</td>";
+      table += "<td>" + arr.my_roles[i].role.college + "</td>";
+      table += "<td>" + arr.my_roles[i].role.Yearconferred + "</td>";
+      table += "<td>" + arr.my_roles[i].role.collegeName + "</td>";
+      table += "</tr>";
     }
-
-    // CREATE DYNAMIC TABLE.
-    var table = document.createElement("table");
-
-    // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
-    var tr = table.insertRow(-1);                   // TABLE ROW.
-
-    for (i = 0; i < col.length; i++) {
-        var th = document.createElement("th");      // TABLE HEADER.
-        th.innerHTML = col[i];
-        tr.appendChild(th);
-    }
-
-    // ADD JSON DATA TO THE TABLE AS ROWS.
-    for (i = 0; i < mydegrees.length; i++) {
-
-        tr = table.insertRow(-1);
-
-        for (let j = 0; j < col.length; j++) {
-            let tabCell = tr.insertCell(-1);
-            tabCell.innerHTML = mydegrees[i][col[j]];
-        }
-    }
-
-    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-    const divContainer = document.getElementById("showData");
-    divContainer.innerHTML = "";
-    divContainer.appendChild(table);
-}
+  
+    table += "</table>";
+  
+    //Output Table to Correct Div
+    document.getElementById("buttonDiv").style.display="none";
+    document.getElementById("showData").innerHTML = table;
+  }
+  
