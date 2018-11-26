@@ -1,28 +1,29 @@
 {
-  "datas": [{
-    "data": {
-      "school": "Boston University",
-      "type": "MS",
-      "url": "https://www.bu.edu/",
-      "name": "Web Application Development(M.S.)",
-      "college": "CLASS",
-      "Yearconferred": "(2020)",
-      "collegeName": "Metropolitan College"
-    }
-  },
+  "my_roles" : [
     {
-      "data": {
-        "school": "Full Sail University",
-        "type": "BS",
-        "url": "https://www.fullsail.edu/",
-        "name": "Web Design & Development(B.S.)",
-        "college": "CLASS",
-        "Yearconferred": "(2013)",
-        "collegeName": "Technology"
-      }
+      "role": {
+        "school" : "Boston University",
+        "type" : "MS",
+        "url" : "https://www.bu.edu/",
+        "name" : "Web Application Development(M.S.)",
+        "college" : "CLASS",
+        "Yearconferred" : "(2020)",
+        "collegeName" : "Metropolitan College"
+	    }
     },
     {
-      "data": {
+      "role" : {
+        "school" : "Full Sail University",
+        "type" : "BS",
+        "url" : "https://www.fullsail.edu/",
+        "name" : "Web Design & Development(B.S.)",
+        "college" : "CLASS",
+        "Yearconferred" : "(2013)",
+        "collegeName" : "Technology"
+	    }
+    },
+    {
+      "role" : {
         "school": "Johnson & Wales University",
         "type": "AA",
         "url": "https://www.jwu.edu/",
@@ -30,8 +31,7 @@
         "college": "CLASS",
         "Yearconferred": "(1993)",
         "collegeName": "Culinary Arts"
-      }
+	    }
     }
-
   ]
 }
