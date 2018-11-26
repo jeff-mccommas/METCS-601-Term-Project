@@ -2,10 +2,7 @@
 function ajaxClick() {
     //Setup the AJAX Call
     var xhttp = new XMLHttpRequest();
-     var url = "http://www.bostonhc.com/data/degrees.json";
-    //var url = "http://www.wynerfamily.com/json/roles.json";
-    //var url="data/degrees.json";
-    //Handle Ajax Results
+    const url = "http://www.bostonhc.com/data/degrees.json";
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
           var myArr = JSON.parse(this.responseText);
@@ -20,8 +17,8 @@ function ajaxClick() {
   
   function displayResults(arr) {
     //Setup Table
-    var table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Name</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
-    //var table = "<table><tr><th>Date</th><th>Production</th><th>Role</th></tr>";
+      let table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Name</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
+      //var table = "<table><tr><th>Date</th><th>Production</th><th>Role</th></tr>";
     //Fill Table from JSON
     console.log("arrrrrrrrrrrrrrrrrrrrrrr"+arr);
     for (i in arr.my_roles) {

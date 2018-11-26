@@ -1,31 +1,44 @@
-// const mydegrees = [
-//     {
-//         "school": "Boston University",
-//         "type": "MS",
-//         "url": "https://www.bu.edu/",
-//         "name": "Web Application Development(M.S.)",
-//         "college": "CLASS",
-//         "Year conferred": "(2020)",
-//         "collegeName": "Metropolitan College"
-//     },
-//     {
-//         "school": "Full Sail University",
-//         "type": "BS",
-//         "url": "https://www.fullsail.edu/",
-//         "name": "Web Design & Development(B.S.)",
-//         "college": "CLASS",
-//         "Year conferred": "(2013)",
-//         "collegeName": "Technology"
-//     },
-//     {
-//         "school": "Johnson & Wales University",
-//         "type": "AA",
-//         "url": "https://www.jwu.edu/",
-//         "name": "Culinary Arts (A.S.)",
-//         "college": "CLASS",
-//         "Year conferred": "(1993)",
-//         "collegeName": "Culinary Arts"
-//     }
-//
-// ];
-//
+
+function ajaxClick() {
+    //Setup the AJAX Call
+    var xhttp = new XMLHttpRequest();
+    var url = "http://www.bostonhc.com/data/degrees.json";
+    //var url = "http://www.wynerfamily.com/json/roles.json";
+    //var url="data/degrees.json";
+    //Handle Ajax Results
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var myArr = JSON.parse(this.responseText);
+            displayResults(myArr);
+        }
+    }
+
+    //Make AJAX Call
+    xhttp.open("GET", url, true);
+    xhttp.send();
+};
+
+function displayResults(arr) {
+    //Setup Table
+    var table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Name</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
+    //var table = "<table><tr><th>Date</th><th>Production</th><th>Role</th></tr>";
+    //Fill Table from JSON
+    console.log("arrrrrrrrrrrrrrrrrrrrrrr"+arr);
+    for (i in arr.my_roles) {
+        table += "<tr>";
+        table += "<td>" + arr.my_roles[i].role.school + "</td>";
+        table += "<td>" + arr.my_roles[i].role.type + "</td>";
+        table += "<td>" + arr.my_roles[i].role.url + "</td>";
+        table += "<td>" + arr.my_roles[i].role.name + "</td>";
+        table += "<td>" + arr.my_roles[i].role.college + "</td>";
+        table += "<td>" + arr.my_roles[i].role.Yearconferred + "</td>";
+        table += "<td>" + arr.my_roles[i].role.collegeName + "</td>";
+        table += "</tr>";
+    }
+
+    table += "</table>";
+
+    //Output Table to Correct Div
+    document.getElementById("buttonDiv").style.display="none";
+    document.getElementById("showData").innerHTML = table;
+}
