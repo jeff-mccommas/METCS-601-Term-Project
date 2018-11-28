@@ -7,9 +7,24 @@ $(function () {
 
 
     }))
+    // even numbers function on button click
 });
 $(function () {
     $("button#even").click((function () {
+        const div = document.getElementById("grid");
+        const images = document.getElementsByTagName('img')
+        for(let i = 0; i < images.length; i++){
+            let image = images[i];
+            console.log(i)
+        };
+
+
+
+    }))
+});
+// even numbers function on button click
+$(function () {
+    $("button#odd").click((function () {
         const div = document.getElementById("grid");
         const images = document.getElementsByTagName('img')
         for(let i = 0; i < images.length; i++){
