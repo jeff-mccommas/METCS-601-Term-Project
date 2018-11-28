@@ -367,12 +367,6 @@ ul.about {
     top: 20px;
 }
 
-.grid {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-areas: "col-text" "about-icon-header" "col-icon"
-
-}
 
 .grid img {
     float: left;
@@ -380,16 +374,13 @@ ul.about {
     max-width: 100%;
     height: auto;
 }
+.wrappedElement{
+    border: 1px solid #cccccc;
+    padding: 3px;
 
-.grid img::after {
-    content: " <- EXCITING!";
-    color: green;
+
 }
 
-.boring-text::after {
-    content: " <- BORING";
-    color: red;
-}
 
 section.about-columns {
     position: relative;
@@ -926,10 +917,76 @@ h3.welcome{
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.bd-example>.btn-group {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
 .btn-primary {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
 }
 button.filter-btn.btn.btn-primary {
     margin: 20px;
