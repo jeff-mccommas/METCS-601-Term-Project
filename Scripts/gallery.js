@@ -1,19 +1,43 @@
+
 $(function () {
+    function hideAllImages() {
+        $(".galleryimages img").css("display", "none");
+    }
+    function showAllImages() {
+        $(".galleryimages img").css("display", "inherit");
+    }
+    function showEvenImages() {
+        $(".galleryimages img:even").fadeIn(1500);
+    }
+    function showOddImages() {
+        $(".galleryimages img:odd").fadeIn(1500);
+    }
+    function rightShift() {
+        $(".galleryimages img:last").parent().prepend($(".galleryimages img:last"));
+    }
+    function leftShift() {
+        $(".galleryimages img:first").parent().append($(".galleryimages img:first"));
+    }
     $("button#hide").click((function () {
-        const div = document.getElementById("grid");
-        const images = document.getElementsByTagName('img')
-        $("img").fadeOut(1500);
-        $("img").fadeIn(1500);
-
-
-    }))
-});
-$(function () {
+        hideAllImages();
+    }));
     $("button#even").click((function () {
-        const div = document.getElementById("grid");
-        const images = document.getElementsByTagName('img')
-        $( "img:even" ).css( "border 1 px solid", "#bbf" );
-
-
-    }))
+        hideAllImages();
+        showEvenImages();
+    }));
+    $("button#odd").click((function () {
+        hideAllImages();
+        showOddImages();
+    }));
+    $("button#rightshift").click((function () {
+        showAllImages();
+        rightShift();
+    }));
+    $("button#leftshift").click((function () {
+        showAllImages();
+        leftShift();
+    }));
+    $("document").ready(function () {
+        $(".galleryimages img").addClass("wrappedElement");
+    });
 });
