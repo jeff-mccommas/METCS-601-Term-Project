@@ -21,6 +21,9 @@ $(function () {
     $("button#hide").click((function () {
         hideAllImages();
     }));
+    $("button#show").click((function () {
+        showAllImages();
+    }));
     $("button#even").click((function () {
         hideAllImages();
         showEvenImages();

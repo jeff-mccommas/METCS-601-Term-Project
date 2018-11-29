@@ -981,6 +981,7 @@ h3.welcome{
     font-size: .875rem;
     line-height: 1.5;
     border-radius: 0;
+    margin: 2px;
 }
 
 .btn:focus, .btn:hover {
