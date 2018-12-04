@@ -17,16 +17,16 @@ function ajaxClick() {
   
   function displayResults(arr) {
     //Setup Table
-      let table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Name</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
+      let table = "<table><tr><th>School</th><th>Type</th><th>Url</th><th>Program</th><th>College</th><th>Year conferred</th><th>CollegeName</th></tr>";
       //var table = "<table><tr><th>Date</th><th>Production</th><th>Role</th></tr>";
     //Fill Table from JSON
     console.log("arrrrrrrrrrrrrrrrrrrrrrr"+arr);
-    for (i in arr.my_roles) {
+    for (let i in arr.my_roles) {
       table += "<tr>";
       table += "<td>" + arr.my_roles[i].role.school + "</td>";
       table += "<td>" + arr.my_roles[i].role.type + "</td>";
       table += "<td>" + arr.my_roles[i].role.url + "</td>";
-      table += "<td>" + arr.my_roles[i].role.name + "</td>";
+      table += "<td>" + arr.my_roles[i].role.program + "</td>";
       table += "<td>" + arr.my_roles[i].role.college + "</td>";
       table += "<td>" + arr.my_roles[i].role.Yearconferred + "</td>";
       table += "<td>" + arr.my_roles[i].role.collegeName + "</td>";

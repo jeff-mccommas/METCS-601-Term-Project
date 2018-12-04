@@ -377,8 +377,6 @@ ul.about {
 .wrappedElement{
     border: 1px solid #cccccc;
     padding: 3px;
-
-
 }
 
 
@@ -454,7 +452,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
 }
 
 th, td {
@@ -983,6 +981,7 @@ h3.welcome{
     font-size: .875rem;
     line-height: 1.5;
     border-radius: 0;
+    margin: 2px;
 }
 
 .btn:focus, .btn:hover {
@@ -1032,6 +1031,8 @@ button.filter-btn.btn.btn-primary {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
 }
+
+
 
 
 
