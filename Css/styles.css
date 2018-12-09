@@ -83,6 +83,24 @@ section.main {
     background-color: #2f3036;
     height: 50px;
 }
+.nav-container .footer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2f3036;
+    height: 50px;
+}
+.nav-container .footer-skills {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #2f3036;
+    height: 50px;
+}
 
 /*Strip the ul of padding and list styling*/
 ul {
@@ -345,9 +363,16 @@ footer {
     text-align: right;
 
 }
+.footer-skills {
+    position: static;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    margin-top: 5em;
+
+}
 
 footer p {
-    padding-right: 5rem;
 }
 
 /*about page styles*/
@@ -817,6 +842,8 @@ section#myskills >div{
 }
 section#myskills2 >div{
     height: 100%;
+    position: relative;
+    top: 0px;
 }
 ul.skills-list {
     display: grid;
@@ -825,6 +852,10 @@ ul.skills-list {
 ul.skills-list li {
     margin: 2px 0 2px;
     height: 28px;
+}
+section#myskills2> ul {
+    display: none;
+
 }
 
 article {
@@ -846,6 +877,12 @@ h1 {
     background-color: #ffffff;
     float: left;
     width: 50%;
+}
+section#myskills2 >div {
+    height: 100%;
+    position: relative;
+    top: 0px;
+    display: contents;
 }
 .right-half {
     background-color: #ffffff;
