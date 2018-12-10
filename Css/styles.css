@@ -1,9 +1,10 @@
 /*insert all css properties here*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html, body {
-    min-height: 400px;
-    margin-bottom: 100px;
-    clear: both;
+    min-height: 500px;
+    /*padding-top: 170px;*/
+    height: 100%;
+
 }
 body {
     margin: 0;
@@ -15,7 +16,12 @@ body {
     text-align: left;
     background-color: #fff;
 }
-
+body.projects{
+    padding-top: 50px;
+}
+body.home{
+    padding-top: 60px;
+}
 
 a label {
     cursor: pointer;
