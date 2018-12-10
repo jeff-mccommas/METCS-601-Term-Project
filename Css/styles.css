@@ -1,7 +1,9 @@
 /*insert all css properties here*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-html, body, section,article {
-    height: 100%;
+html, body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 body {
     margin: 0;
@@ -107,8 +109,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
+    top: 0;
 }
 
 /*Create a horizontal list with spacing*/
