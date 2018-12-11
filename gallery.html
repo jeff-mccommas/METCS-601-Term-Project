@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- I added extra meta data to head section -->
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content=METCS601>
+      <meta name="keywords" content="HTML,CSS,JavaScript">
+      <meta name="author" content="Jeff McCommas">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/menu.css">
+       <link rel="stylesheet" href="assets/css/gallery.css">
+       <link rel="stylesheet" href="assets/css/button.css">
+      <title>Projects</title>
+   </head>
+   <body class="projects">
+      <!-- begin navigation -->
+      <header>
+         <div class="topnav" id="myTopnav">
+            <a href="home.html" class="">Home</a>
+            <a href="about.html" class="">About</a>
+            <a href="resume.html" class="">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="gallery.html" class="active">Photo gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="skills.html">Skills</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+      </header>
+      <div class="main">
+         <div class="btn-group" role="group" aria-label="Basic example">
+            <button id="show" type="button" class="btn btn-sm btn-primary">Show All Images</button>
+            <button id="hide" type="button" class="btn btn-sm btn-primary">Hide All Images</button>
+            <button id="even" type="button" class=" btn btn-sm btn-success">Show Even Images</button>
+            <button id="odd" type="button" class=" btn btn-sm btn-danger">Show Odd Images</button>
+            <button id="rightshift" type="button" class=" btn btn-sm btn-info">Right Shift</button>
+            <button id="leftshift" type="button" class=" btn btn-sm btn-dark">Left Shift</button>
+        </div>
+          
+        <div id="grid" class="galleryimages">
+            <img src="assets/images/gallery/1.jpeg" alt="sample image">
+            <img src="assets/images/gallery/2.jpeg" alt="sample image">
+            <img src="assets/images/gallery/3.jpeg" alt="sample image">
+            <img src="assets/images/gallery/4.jpeg" alt="sample image">
+            <img src="assets/images/gallery/5.jpeg" alt="sample image">
+            <img src="assets/images/gallery/6.jpeg" alt="sample image">
+            <img src="assets/images/gallery/7.jpeg" alt="sample image">
+            <img src="assets/images/gallery/8.jpeg" alt="sample image">
+            <img src="assets/images/gallery/9.jpeg" alt="sample image">
+            <img src="assets/images/gallery/9m.jpg" alt="sample image">
+            <img src="assets/images/gallery/12m.jpg" alt="sample image">
+            <img src="assets/images/gallery/15l.jpg" alt="sample image">
+            <img src="assets/images/gallery/16l.jpg" alt="sample image">
+            <img src="assets/images/gallery/22l.jpg" alt="sample image">
+            <img src="assets/images/gallery/23m.jpg" alt="sample image">
+            <img src="assets/images/gallery/24m.jpg" alt="sample image">
+            <img src="assets/images/gallery/25m.jpg" alt="sample image">
+
+        </div>
+      </div>
+     <footer class="footer">
+         <p class="copy">Copyright 2018 Jeff McCommas</p>
+       </footer>
+       <script src="assets/lib/jquery.min.js"></script>
+      <script src="assets/scripts/script.js"></script>
+       <script src="assets/scripts/gallery.js"></script>
+   </body>
+</html>

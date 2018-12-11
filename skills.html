@@ -1,98 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- I added extra meta data to head section -->
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content=METCS601>
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="Jeff McCommas">
-    <link rel="stylesheet" href="Css/styles.css">
-    <link rel="stylesheet" href="Css/media.css">
-    <link rel="stylesheet" media="print" href="./Css/print.css">
-    <title>My Skills</title>
-</head>
-<body id="body">
-
-<!-- begin navigation -->
-<header>
-    <nav>
-        <label for="show-menu" class="show-menu">Show Menu</label>
-        <input type="checkbox" id="show-menu" role="button">
-        <ul id="menu" class="nav-container">
-            <li><a href="./home.html">Home</a></li>
-            <li>
-                <a href="./about.html">About ￬</a>
-                <ul class="hidden">
-                    <li><a href="https://github.com/jeff-mccommas" target="_blank">GitHub Repo</a></li>
-                    <li><a href="http://www.linkedin.com/in/jeffmccommas" target="_blank">My LinkedIn</a></li>
-                    <li><a href="http://www.jeffmccommas.com/" target="_blank">My Portfolio</a></li>
-                </ul>
-            </li>
-            <li>
-            <li><a href="./resume.html">Resume</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./photo-gallery.html">Photo gallery</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./skills.html">Skills</a></li>
-
-
-        </ul>
-    </nav>
-
-</header>
-<!-- end navigation -->
-
-<section class="main">
-
-    <article class="skills block content-960 center-relative center-text">
-        <h2>SKILLS</h2>
-        <p class="info">I am a versatile, creative, and technologically sophisticated Web developer with 10+ years
-            success developing outstanding website, e-commerce, and SEO solutions for clients in diverse industries.
-            Highly collaborative consultant, focused on consistently delivering innovation and results.</p>
-        <p class="info">I will conceptualize and design unique branding, elegant user interfaces, and integrate
-            marketing / promotional strategies. Jeff McCommas is a superior project manager, communicator, and
-            negotiator, adept in cultivating and managing client / vendor / partner relations. I will maintain expertise
-            in emerging technologies to deliver the highest caliber client solutions.</p>
-        <div class="separator skills_separator"></div>
-        <div class="">
-
-            <section id="myskills" class="">
-
-
-            </section>
-
-            <section id="myskills2">
-                <div id="left-half" class="left-half">
-                    <h3>Skill Set</h3>
-                    <ul class="skills-list">
-                        <li>Front End UI Development</li>
-                        <li>Graphic &amp; UI Design</li>
-                        <li>Search Engine Optimization</li>
-                        <li>Responsive Web Design</li>
-                        <li>Single Page Web Applications</li>
-                        <li>HTML5, CSS3, JQUERY</li>
-                        <li>Javascript Frameworks (Angular2 + React,Vue)</li>
-                        <li>UX design &amp; usability</li>
-                        <li>Bootstrap and Foundation</li>
-                        <li>Advanced Jquery Animations</li>
-                        <li>Wire Framing - SiteMapping - Moodboards</li>
-                    </ul>
-                </div>
-            </section>
-
-
-        </div>
-    </article>
-</section>
-
-
-<footer class="nav-container footer-skills">
-    <p class="copy">Copyright 2018 Jeff McCommas</p>
-</footer>
-<script src="Scripts/script.js"></script>
-<script src="Scripts/skills.js"></script>
-</body>
+   <head>
+      <!-- I added extra meta data to head section -->
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content=METCS601>
+      <meta name="keywords" content="HTML,CSS,JavaScript">
+      <meta name="author" content="Jeff McCommas">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/menu.css">
+      <link rel="stylesheet" href="assets/css/skill.css">
+      <title>Skills</title>
+   </head>
+   <body class="projects">
+      <!-- begin navigation -->
+      <header>
+         <div class="topnav" id="myTopnav">
+            <a href="home.html" class="">Home</a>
+            <a href="about.html" class="">About</a>
+            <a href="resume.html" class="">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="gallery.html">Photo gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="skills.html" class="active">Skills</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+      </header>
+      <div class="main">
+         <div class="card">
+            <div class="content">
+               <h2 class="title">My Skills</h2>
+               <p class="info">I am a versatile, creative, and technologically sophisticated Web developer with 10+ years
+                  success developing outstanding website, e-commerce, and SEO solutions for clients in diverse industries.
+                  Highly collaborative consultant, focused on consistently delivering innovation and results.
+               </p>
+               <p class="info">I will conceptualize and design unique branding, elegant user interfaces, and integrate
+                  marketing / promotional strategies. Jeff McCommas is a superior project manager, communicator, and
+                  negotiator, adept in cultivating and managing client / vendor / partner relations. I will maintain expertise
+                  in emerging technologies to deliver the highest caliber client solutions.
+               </p>
+            </div>
+         </div>
+         <div class="separator skills_separator"></div>
+         <div class="card skills">
+            <div class="content">
+               <h2 class="title">Softwares / Technology</h2>
+               <div id="myskills" class="skillset">
+               </div>
+            </div>
+         </div>
+         <div class="card skills">
+            <div class="content">
+               <h2 class="title">Others</h2>
+               <ul class="skills-list">
+                  <li>Front End UI Development</li>
+                  <li>Graphic &amp; UI Design</li>
+                  <li>Search Engine Optimization</li>
+                  <li>Responsive Web Design</li>
+                  <li>Single Page Web Applications</li>
+                  <li>HTML5, CSS3, JQUERY</li>
+                  <li>Javascript Frameworks (Angular2 + React,Vue)</li>
+                  <li>UX design &amp; usability</li>
+                  <li>Bootstrap and Foundation</li>
+                  <li>Advanced Jquery Animations</li>
+                  <li>Wire Framing - SiteMapping - Moodboards</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <p class="copy">Copyright 2018 Jeff McCommas</p>
+      </footer>
+      <script src="assets/scripts/script.js"></script>
+      <script src="assets/scripts/skills.js"></script>
+   </body>
 </html>

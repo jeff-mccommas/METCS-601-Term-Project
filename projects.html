@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- I added extra meta data to head section -->
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content=METCS601>
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="Jeff McCommas">
-    <link rel="stylesheet" href="Css/styles.css">
-    <link rel="stylesheet" href="Css/media.css">
-    <link rel="stylesheet" href="Css/projects.css">
-    <link rel="stylesheet" media="print" href="./Css/print.css">
-    <title>Projects</title>
-</head>
-<body class="projects">
-<!-- begin navigation -->
-<header>
-    <nav>
-        <label for="show-menu" class="show-menu">Show Menu</label>
-        <input type="checkbox" id="show-menu" role="button">
-        <ul id="menu" class="nav-container">
-            <li><a href="./home.html">Home</a></li>
-            <li>
-                <a href="./about.html">About ￬</a>
-                <ul class="hidden">
-                    <li><a href="https://github.com/jeff-mccommas" target="_blank">GitHub Repo</a></li>
-                    <li><a href="http://www.linkedin.com/in/jeffmccommas" target="_blank">My LinkedIn</a></li>
-                    <li><a href="http://www.jeffmccommas.com/" target="_blank">My Portfolio</a></li>
-                </ul>
-            </li>
-            <li>
-            <li><a href="./resume.html">Resume</a></li>
-            <li><a href="./projects.html">Projects</a></li>
-            <li><a href="./photo-gallery.html">Photo gallery</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./skills.html">Skills</a></li>
-
-        </ul>
-    </nav>
-
-</header>
-<!-- end navigation -->
-<div class="media">
-
-    <div class="img">
-        <img src="images/portfolio/DAVIS-1400x787-PortfolioWebsite_LCU-700x394.jpg" alt="Placeholder">
-    </div>
-    <h2 class="title">This is my title</h2>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
-            Praesent quis risus id dolor venenatis condimentum.</p>
-    </div>
-
-</div>
-<div class="media">
-
-    <div class="img">
-        <img src="images/portfolio/DAVIS-1400x787-PortfolioWebsite_MVS-700x394.jpg" alt="Placeholder">
-    </div>
-    <h2 class="title">This is my title</h2>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
-            Praesent quis risus id dolor venenatis condimentum.</p>
-    </div>
-
-</div>
-<div class="media">
-
-    <div class="img">
-        <img src="images/portfolio/Davis1400x787_CornerstoneWebsite-700x394.jpg" alt="Placeholder">
-    </div>
-    <h2 class="title">This is my title</h2>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
-            Praesent quis risus id dolor venenatis condimentum.</p>
-
-</div>
-<footer class="nav-container">
-    <p class="copy">Copyright 2018 Jeff McCommas</p>
-</footer>
-<script src="Scripts/script.js"></script>
-</body>
+   <head>
+      <!-- I added extra meta data to head section -->
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content=METCS601>
+      <meta name="keywords" content="HTML,CSS,JavaScript">
+      <meta name="author" content="Jeff McCommas">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel="stylesheet" href="assets/css/menu.css">
+      <title>Projects</title>
+   </head>
+   <body class="projects">
+      <!-- begin navigation -->
+      <header>
+         <div class="topnav" id="myTopnav">
+             <a href="home.html" class="">Home</a>
+            <a href="about.html" class="">About</a>
+            <a href="resume.html" class="">Resume</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="gallery.html">Photo gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="skills.html">Skills</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+      </header>
+      <div class="main">
+         <div class="card">
+            <div class="img">
+               <img src="assets/images/portfolio/DAVIS-1400x787-PortfolioWebsite_LCU-700x394.jpg" alt="Placeholder">
+            </div>
+             <div class="content">
+            <h2 class="title">This is my title</h2>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
+                  Praesent quis risus id dolor venenatis condimentum.
+               </p>
+            </div>
+                 </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="assets/images/portfolio/DAVIS-1400x787-PortfolioWebsite_MVS-700x394.jpg" alt="Placeholder">
+            </div>
+            <div class="content">
+            <h2 class="title">This is my title</h2>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
+                  Praesent quis risus id dolor venenatis condimentum.
+               </p>
+            </div>
+                 </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="assets/images/portfolio/Davis1400x787_CornerstoneWebsite-700x394.jpg" alt="Placeholder">
+            </div>
+            <div class="content">
+            <h2 class="title">This is my title</h2>
+            <div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula vitae ligula sit amet maximus. Nunc auctor neque ipsum, ac porttitor elit lobortis ac. Vivamus ultrices sodales tellus et aliquam. Pellentesque porta sit amet nulla vitae luctus.
+                  Praesent quis risus id dolor venenatis condimentum.
+               </p>
+            </div>
+                 </div>
+         </div>
+      </div>
+     <footer class="footer">
+         <p class="copy">Copyright 2018 Jeff McCommas</p>
+       </footer>
+      <script src="assets/scripts/script.js"></script>
+   </body>
 </html>
