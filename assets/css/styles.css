@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 color: #434343;
 background: #DAE3E7;
 }
@@ -166,4 +170,156 @@ p {
     .lead {
         font-size: 21px;
     }
+}
+th, td, p, input {
+    font:14px Verdana;
+}
+table, th, td
+{
+    border: solid 1px #DDD;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center!important;
+}
+tbody tr:first-child {
+    background-color: #007bff!important;
+    border-color: #007bff!important;
+    color: #ffffff!important;
+}
+th {
+    font-weight:bold!important;
+}
+#showData{
+    margin-top:50px;
+    text-align: -webkit-center;
+    margin-bottom:0;
+}
+#jsonsection{
+    margin-top:100px;
+}
+/** font families */
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .3rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0;
+    margin: 2px;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+button.filter-btn.btn.btn-primary {
+    margin: 20px;
+}
+/*begin table element styles*/
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+tbody tr:nth-child(odd) {
+    background: #fefefe;
+}
+
+body tr:hover {
+    background: rgba(0, 118, 255, 0.2);
+    /*background: #0076ff;*/
 }
