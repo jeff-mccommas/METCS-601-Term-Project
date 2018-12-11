@@ -31,6 +31,14 @@ footer p{
     .card{
         flex-direction: column;
     }
+    .container{
+            flex-direction: column;
+            text-align: center;
+        display: flex;
+    }
+     .container img{
+          margin: auto
+    }
 }
 .title{
     margin-top: 0;
